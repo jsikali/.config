@@ -1,0 +1,2103 @@
+Discord 1.0.143
+App ready
+Starting app.
+Starting updater.
+Determined current Linux architecture: x64
+[2026-06-23 19:25:48.624505 -04:00] WARN [updater]: Could not determine platform version
+splashScreen.initSplash(false)
+blackbox: 6/23/2026, 7:25:48 PM EDT 0 
+
+----------------------------------------------
+blackbox: 6/23/2026, 7:25:48 PM EDT 1 Discord starting: {"releaseChannel":"stable","sentryDist":"stable-linux-x64","sentryRelease":"discord-desktop-c0c3e5362fe33f351b67051540d1e4719ad9f349","version":"1.0.143","disableUpdater":false}, modulepath: /home/jinsei/.config/discord/module_data
+blackbox: 6/23/2026, 7:25:48 PM EDT 2 ✅ webContents.created web1 ""
+blackbox: 6/23/2026, 7:25:48 PM EDT 3 ✅ window.created win1 "discord"
+19:25:48.750 › splashScreenPreload: signalReady
+splashScreen: SPLASH_SCREEN_READY
+splashScreen.webContentsSend: SPLASH_SCREEN_QUOTE SPLASH_SCREEN_QUOTE [ 'Hold Tight — Loading Discord' ]
+allowOptionalUpdates: true
+splashScreen.updateSplashState checking-for-updates checking-for-updates {}
+splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'checking-for-updates' } ]
+19:25:48.775 › splashScreenPreload: onStateUpdate: {"status":"checking-for-updates"}
+blackbox: 6/23/2026, 7:25:48 PM EDT 4 ✅ webContents.did-finish-load web1
+splashScreen.launchMainWindow: false
+Optional module ./ElectronTestRpc was not included.
+Clearing GPU cache...
+splashScreen.updateSplashState launching launching {}
+splashScreen.webContentsSend: SPLASH_UPDATE_STATE SPLASH_UPDATE_STATE [ { status: 'launching' } ]
+blackbox: 6/23/2026, 7:25:49 PM EDT 5 ✅ webContents.created web2 ""
+19:25:49.070 › splashScreenPreload: onStateUpdate: {"status":"launching"}
+Clearing code cache...
+blackbox: 6/23/2026, 7:25:49 PM EDT 6 ✅ window.created win2 "Discord"
+[ConnectivityTester h5qxdm] Sending DNS query: idt-h5qxdm-mqr9w1n8.loc-en-us.chk-webapp.res-ok.dur-0.v1.dc-telemetry.net
+19:25:50.050 › [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2026-06-23 19:25:50.476] [warning] Failed to connect to Wayland display
+19:25:51.440 › [FAST CONNECT] sending identify
+blackbox: 6/23/2026, 7:25:51 PM EDT 7 ✅ webContents.did-finish-load web2
+19:25:51.649 › [libdiscore] [experiment_manager] Loaded experiments from cache
+19:25:51.657 › [libdiscore] [BlockedDomainsStore] Deserialized 43405 hashes, revision 2974
+19:25:51.914 › Initializing voice engine with audio subsystem: standard
+[2026-06-23 19:25:51.919] [warning] Failed to connect to Wayland display
+19:25:52.089 › [DatabaseManager] active user changed (now: 302127110678511616, was: null, was: undefined)
+19:25:52.222 › [default] [BUILD INFO] Release Channel: stable, Build Number: 567600, Version Hash: cba3ede1afb9cdea92d6f7de9eeed7d0e08b6643
+19:25:52.515 › [default] [NATIVE INFO] host 1.0.143, modules: discord_utils: 1, discord_zstd: 1, discord_voice: 1, discord_desktop_core: 1, discord_erlpack: 1, discord_game_utils: 1, discord_rpc: 1, discord_spellcheck: 1, discord_krisp: 1, build: 84410
+ipcMain.on(IPCEvents.APP_ASYNC_INDEX_TSX_LOADED) false false
+splashScreen.pageReady
+19:25:52.522 › [libdiscore] The answer for life the universe and everything is: 42
+19:25:52.608 › [MediaEngineStore] OpenH264 is ready [object Object]
+19:25:52.609 › [Spellchecker] Switching to en-US (available)
+Main process startup timing:
+|  index-init:                                     185.48
+|  index-init-duration:                            2270.68 (2085.20)
+|  bootstrap-gpuflags:                             239.07
+|  bootstrap-gpuflags-duration:                    2273.45 (2034.38)
+|  bootstrap-startapp:                             2364.01
+|  bootstrap-startupdate:                          2365.75
+|  bootstrap-startupdate-duration:                 2786.70 (420.94)
+|  splash-window-launch:                           2373.39
+|  splash-window-loadurl-duration:                 2393.38 (19.99)
+|  splash-window-duration:                         6367.11 (3993.72)
+|  splash-screen-ready:                            2500.31
+|  splash-update-complete:                         2784.52
+|  splash-launch-mainwindow:                       2786.46
+|  bootstrap-coremodule-startup:                   2786.72
+|  bootstrap-coremodule-startup-duration:          2816.96 (30.24)
+|  coremodule-index-startup:                       2796.49
+|  coremodule-index-startup-duration:              2816.95 (20.46)
+|  mainscreen-launch-window:                       2812.20
+|  mainscreen-launch-window-duration:              2838.84 (26.64)
+|  mainscreen-launch-window-misc-setup:            2830.73
+|  mainscreen-launch-window-misc-setup-duration:   2833.96 (3.23)
+|  mainscreen-loadmainpage:                        2834.55
+|  mainscreen-loadmainpage-duration:               6262.86 (3428.31)
+|  splash-destroy-splashwindow:                    6266.57
+|  bootstrap-coremodule-show-mainwin:              6266.70
+blackbox: 6/23/2026, 7:25:52 PM EDT 8 window.close win1
+blackbox: 6/23/2026, 7:25:52 PM EDT 9 webContents.destroyed web1
+blackbox: 6/23/2026, 7:25:52 PM EDT 10 window.closed win1
+19:25:53.024 › [RPCServer:WSS] Starting on 6463
+19:25:53.033 › [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+19:25:53.117 › [MediaEngineStore] OpenH264 cleanup [object Object]
+19:25:53.148 › [ConnectionStore] Socket is reconnecting because of starting new session
+19:25:53.148 › [GatewaySocket] .connect() called, new state is WILL_RECONNECT
+19:25:53.149 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+19:25:53.149 › [GatewaySocket] Setting connection state to CONNECTING
+19:25:53.149 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+19:25:53.149 › [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+19:25:53.149 › [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+19:25:53.149 › [ConnectionStore] handleIdentify called [object Object]
+19:25:53.149 › [GatewaySocket] Setting connection state to IDENTIFYING
+19:25:53.149 › [GatewaySocket] [IDENTIFY, fast-connect]
+19:25:53.150 › [GatewaySocket] [HELLO] via 
+gateway-prd-arm-us-east1-b-zfm1: 0, heartbeat interval: 41250, took 1 ms
+19:25:53.796 › [GatewaySocket] [READY] took 649ms, as d577689d84abc3cd0d02073f31d89dcf
+19:25:53.797 › [GatewaySocket] 
+gateway-prd-arm-us-east1-b-zfm1: 518.055
+|  id_created: 0.495
+|  session_lookup_time: 0.288
+|  session_lookup_finished: 0.02
+|  sessions-prd-gcp-us-east1-b-65: 490.269
+|  |  start_session: 433.213
+|  |  |  prd-rpc-7cfc96b4b5-q6l4z: 280.289
+|  |  |  |  get_user: 9.936
+|  |  |  |  get_guilds: 75.373
+|  |  |  |  user_settings_proto: 0.082
+|  |  |  |  relationships: 120.239
+|  |  |  |  game_relationships: 0.005
+|  |  |  |  friend_suggestion: 0.049
+|  |  |  |  connections: 0.016
+|  |  |  |  serialized_read_states: 0.005
+|  |  |  |  send_scheduled_deletion_message: 0.004
+|  |  |  |  sanitize_premium_perks: 0.003
+|  |  |  |  read_repair_premium_perks: 0.003
+|  |  |  |  guild_join_requests: 0.003
+|  |  |  |  user_guild_settings: 0.003
+|  |  |  |  serialized_private_channels: 0.002
+|  |  |  |  user_segments: 0.103
+|  |  |  |  blocker_ids: 0.004
+|  |  |  |  affine_user_ids: 0.012
+|  |  |  |  experiments: 56.576
+|  |  |  |  required_action: 0.016
+|  |  |  |  authorized_ip_coro: 0.003
+|  |  |  |  pending_payments: 3.836
+|  |  |  |  apex_experiments: 108.389
+|  |  |  |  sessions_experiments: 0.008
+|  |  |  |  played_application_ids: 0.005
+|  |  |  |  linked_users: 0.005
+|  |  |  |  ad_personalization_toggles_disabled: 0.005
+|  |  |  |  regional_feature_config: 0.009
+|  |  starting_guild_connect: 0.122
+|  |  presence_started: 0.371
+|  |  guilds_started: 3.346
+|  |  lobbies_started: 0.001
+|  |  guilds_connect: 40.948
+|  |  presence_connect: 0.025
+|  |  connect_finished: 41.31
+|  |  build_ready: 9.147
+|  |  clean_ready: 0.003
+|  |  optimize_ready: 2.555
+|  |  split_ready: 0.199
+19:25:53.797 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+19:25:53.797 › [GatewaySocket] Updating resume url to wss://gateway-us-east1-b.discord.gg
+19:25:53.880 › [Flux] Dispatching CONNECTION_OPEN
+19:25:53.885 › [AuthenticationStore] handleConnectionOpen called [object Object]
+19:25:53.888 › [DatabaseManager] removing database (user: 302127110678511616, database: undefined)
+19:25:53.888 › [DatabaseManager] added database (302127110678511616 → null)
+19:25:54.042 › [Flux] Slow dispatch on CONNECTION_OPEN: 161.59999999403954ms
+19:25:54.047 › [OverlayRenderStore] setOverlayEnabled: not supported
+19:25:54.968 › [GatewaySocket] [READY_SUPPLEMENTAL] took 1821ms
+19:25:54.969 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+19:25:57.672 › [OverlayKeybindExperimentManager] Experiments initializing...
+19:25:57.732 › [OverlayKeybindExperimentManager] Experiments initialized
+19:25:57.742 › [libdiscore] [Cache] Set cache for key: experiments_snapshot
+19:25:58.286 › [SignalHelpers.web] signalAllAcceptedCredentials [object Object]
+19:26:04.687 › [ReadStateStore] Deleting ReadState 895825676756725770 0 [object Object]
+19:26:04.794 › [ReadStateStore] Deleting ReadState 1446133806439469128 0 [object Object]
+19:26:08.613 › [libdiscore] [NETWORK] Sending GET request to https://cdn.discordapp.com/bad-domains/current_revision.txt
+19:26:08.656 › [libdiscore] [NETWORK] Completed GET request to https://cdn.discordapp.com/bad-domains/current_revision.txt with status: 200
+19:26:08.656 › [libdiscore] [BlockedDomainsStore] Fetching delta between revisions 2974 -> 2976
+19:26:08.657 › [libdiscore] [NETWORK] Sending GET request to https://discord.com/bad-hash-delta
+19:26:08.700 › [libdiscore] [NETWORK] Completed GET request to https://discord.com/bad-hash-delta with status: 200
+19:26:08.701 › [libdiscore] [BlockedDomainsStore] Adding 3 hashes, removing 0 hashes
+19:26:08.711 › [libdiscore] [Cache] Set cache for key: blocked_domains_state
+19:26:08.711 › [libdiscore] [BlockedDomainsStore] Successfully fetched blocked domains
+19:26:18.848 › [MessageActionCreators] Fetching messages for 1351021532251422812 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+19:26:18.903 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1351021532251422812
+19:26:19.214 › [MessageActionCreators] Fetched 11 messages for 1351021532251422812 isBefore:false isAfter:false
+19:26:19.217 › [ChannelMessages] loadComplete: resetting state for channelId=1351021532251422812, sending.length=0
+19:26:20.313 › [RTCLatencyTestManager] RTC region latency test completed, ranked regions are:  us-central,newark,us-east,atlanta,us-south
+19:26:22.824 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+19:26:22.867 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+19:26:23.004 › [MessageActionCreators] Fetched 11 messages for 1350131362354696314 isBefore:false isAfter:false
+19:26:23.005 › [ChannelMessages] loadComplete: resetting state for channelId=1350131362354696314, sending.length=0
+19:26:26.839 › [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+19:27:01.737 › [MessageQueue] Queueing message to be sent LogId:5191
+19:27:01.738 › [MessageQueue] Draining message from queue LogId:5191 QueueLength: 0
+19:27:01.738 › [MessageQueue] Draining Message Queue with:  0
+19:27:01.780 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and 1519120738638888971. jump=undefined
+19:27:02.006 › [MessageActionCreators] Fetched 22 messages for 1350131362354696314 isBefore:true isAfter:false
+19:27:02.484 › [MessageQueue] Finished draining message from queue LogId:5191 QueueLength: 0
+19:27:03.941 › [MessageQueue] Queueing message to be sent LogId:5044
+19:27:03.941 › [MessageQueue] Draining message from queue LogId:5044 QueueLength: 0
+19:27:03.941 › [MessageQueue] Draining Message Queue with:  0
+19:27:04.408 › [MessageQueue] Finished draining message from queue LogId:5044 QueueLength: 0
+19:28:47.098 › [MessageQueue] Queueing message to be sent LogId:6662
+19:28:47.099 › [MessageQueue] Draining message from queue LogId:6662 QueueLength: 0
+19:28:47.099 › [MessageQueue] Draining Message Queue with:  0
+19:28:47.480 › [MessageQueue] Finished draining message from queue LogId:6662 QueueLength: 0
+19:28:50.556 › [MessageQueue] Queueing message to be sent LogId:6962
+19:28:50.556 › [MessageQueue] Draining message from queue LogId:6962 QueueLength: 0
+19:28:50.556 › [MessageQueue] Draining Message Queue with:  0
+19:28:50.881 › [MessageQueue] Finished draining message from queue LogId:6962 QueueLength: 0
+19:29:30.423 › [MessageQueue] Queueing message to be sent LogId:1274
+19:29:30.424 › [MessageQueue] Draining message from queue LogId:1274 QueueLength: 0
+19:29:30.424 › [MessageQueue] Draining Message Queue with:  0
+19:29:30.965 › [MessageQueue] Finished draining message from queue LogId:1274 QueueLength: 0
+19:31:53.282 › [MessageQueue] Queueing message to be sent LogId:2977
+19:31:53.282 › [MessageQueue] Draining message from queue LogId:2977 QueueLength: 0
+19:31:53.282 › [MessageQueue] Draining Message Queue with:  0
+19:31:53.646 › [MessageQueue] Finished draining message from queue LogId:2977 QueueLength: 0
+19:32:15.924 › [MessageQueue] Queueing message to be sent LogId:4801
+19:32:15.924 › [MessageQueue] Draining message from queue LogId:4801 QueueLength: 0
+19:32:15.925 › [MessageQueue] Draining Message Queue with:  0
+19:32:16.299 › [MessageQueue] Finished draining message from queue LogId:4801 QueueLength: 0
+19:32:33.615 › [MessageQueue] Queueing message to be sent LogId:9827
+19:32:33.615 › [MessageQueue] Draining message from queue LogId:9827 QueueLength: 0
+19:32:33.615 › [MessageQueue] Draining Message Queue with:  0
+19:32:33.941 › [MessageQueue] Finished draining message from queue LogId:9827 QueueLength: 0
+19:33:13.272 › [MessageQueue] Queueing message to be sent LogId:8469
+19:33:13.273 › [MessageQueue] Draining message from queue LogId:8469 QueueLength: 0
+19:33:13.273 › [MessageQueue] Draining Message Queue with:  0
+19:33:13.734 › [MessageQueue] Finished draining message from queue LogId:8469 QueueLength: 0
+19:36:00.185 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and 1519121587402702979. jump=undefined
+19:36:01.530 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and 1519120622683291788. jump=undefined
+19:36:08.143 › [MessageQueue] Queueing message to be sent LogId:7948
+19:36:08.144 › [MessageQueue] Draining message from queue LogId:7948 QueueLength: 0
+19:36:08.144 › [MessageQueue] Draining Message Queue with:  0
+19:36:08.703 › [MessageQueue] Finished draining message from queue LogId:7948 QueueLength: 0
+19:36:26.597 › [MessageQueue] Queueing message to be sent LogId:7349
+19:36:26.598 › [MessageQueue] Draining message from queue LogId:7349 QueueLength: 0
+19:36:26.598 › [MessageQueue] Draining Message Queue with:  0
+19:36:27.332 › [MessageQueue] Finished draining message from queue LogId:7349 QueueLength: 0
+19:37:16.667 › [MessageQueue] Queueing message to be sent LogId:6060
+19:37:16.667 › [MessageQueue] Draining message from queue LogId:6060 QueueLength: 0
+19:37:16.667 › [MessageQueue] Draining Message Queue with:  0
+19:37:17.579 › [MessageQueue] Finished draining message from queue LogId:6060 QueueLength: 0
+19:37:44.673 › [MessageQueue] Queueing message to be sent LogId:4175
+19:37:44.673 › [MessageQueue] Draining message from queue LogId:4175 QueueLength: 0
+19:37:44.674 › [MessageQueue] Draining Message Queue with:  0
+19:37:45.286 › [MessageQueue] Finished draining message from queue LogId:4175 QueueLength: 0
+19:37:48.135 › [MessageQueue] Queueing message to be sent LogId:5816
+19:37:48.136 › [MessageQueue] Draining message from queue LogId:5816 QueueLength: 0
+19:37:48.136 › [MessageQueue] Draining Message Queue with:  0
+19:37:48.618 › [MessageQueue] Finished draining message from queue LogId:5816 QueueLength: 0
+19:37:55.112 › [MessageQueue] Queueing message to be sent LogId:3805
+19:37:55.112 › [MessageQueue] Draining message from queue LogId:3805 QueueLength: 0
+19:37:55.113 › [MessageQueue] Draining Message Queue with:  0
+19:37:55.475 › [MessageQueue] Finished draining message from queue LogId:3805 QueueLength: 0
+19:37:59.708 › [MessageQueue] Queueing message to be sent LogId:4323
+19:37:59.708 › [MessageQueue] Draining message from queue LogId:4323 QueueLength: 0
+19:37:59.708 › [MessageQueue] Draining Message Queue with:  0
+19:37:59.952 › [MessageQueue] Finished draining message from queue LogId:4323 QueueLength: 0
+19:39:08.148 › [MessageQueue] Queueing message to be sent LogId:2165
+19:39:08.149 › [MessageQueue] Draining message from queue LogId:2165 QueueLength: 0
+19:39:08.149 › [MessageQueue] Draining Message Queue with:  0
+19:39:08.485 › [MessageQueue] Finished draining message from queue LogId:2165 QueueLength: 0
+19:39:09.673 › [MessageQueue] Queueing message to be sent LogId:4115
+19:39:09.673 › [MessageQueue] Draining message from queue LogId:4115 QueueLength: 0
+19:39:09.673 › [MessageQueue] Draining Message Queue with:  0
+19:39:10.197 › [MessageQueue] Finished draining message from queue LogId:4115 QueueLength: 0
+19:39:10.709 › [MessageQueue] Queueing message to be sent LogId:6419
+19:39:10.709 › [MessageQueue] Draining message from queue LogId:6419 QueueLength: 0
+19:39:10.709 › [MessageQueue] Draining Message Queue with:  0
+19:39:11.028 › [MessageQueue] Finished draining message from queue LogId:6419 QueueLength: 0
+19:39:38.384 › [MessageQueue] Queueing message to be sent LogId:3997
+19:39:38.384 › [MessageQueue] Draining message from queue LogId:3997 QueueLength: 0
+19:39:38.384 › [MessageQueue] Draining Message Queue with:  0
+19:39:38.834 › [MessageQueue] Finished draining message from queue LogId:3997 QueueLength: 0
+19:40:18.966 › [MessageQueue] Queueing message to be sent LogId:2417
+19:40:18.966 › [MessageQueue] Draining message from queue LogId:2417 QueueLength: 0
+19:40:18.966 › [MessageQueue] Draining Message Queue with:  0
+19:40:19.346 › [MessageQueue] Finished draining message from queue LogId:2417 QueueLength: 0
+19:40:24.812 › [MessageQueue] Queueing message to be sent LogId:4628
+19:40:24.812 › [MessageQueue] Draining message from queue LogId:4628 QueueLength: 0
+19:40:24.812 › [MessageQueue] Draining Message Queue with:  0
+19:40:25.061 › [MessageQueue] Finished draining message from queue LogId:4628 QueueLength: 0
+19:40:38.400 › [MessageQueue] Queueing message to be sent LogId:426
+19:40:38.400 › [MessageQueue] Draining message from queue LogId:426 QueueLength: 0
+19:40:38.400 › [MessageQueue] Draining Message Queue with:  0
+19:40:38.778 › [MessageQueue] Finished draining message from queue LogId:426 QueueLength: 0
+19:40:52.622 › [MessageQueue] Queueing message to be sent LogId:9063
+19:40:52.622 › [MessageQueue] Draining message from queue LogId:9063 QueueLength: 0
+19:40:52.622 › [MessageQueue] Draining Message Queue with:  0
+19:40:52.931 › [MessageQueue] Finished draining message from queue LogId:9063 QueueLength: 0
+19:41:20.678 › [MessageQueue] Queueing message to be sent LogId:3148
+19:41:20.678 › [MessageQueue] Draining message from queue LogId:3148 QueueLength: 0
+19:41:20.679 › [MessageQueue] Draining Message Queue with:  0
+19:41:21.020 › [MessageQueue] Finished draining message from queue LogId:3148 QueueLength: 0
+19:41:30.221 › [MessageQueue] Queueing message to be sent LogId:1635
+19:41:30.221 › [MessageQueue] Draining message from queue LogId:1635 QueueLength: 0
+19:41:30.221 › [MessageQueue] Draining Message Queue with:  0
+19:41:30.485 › [MessageQueue] Finished draining message from queue LogId:1635 QueueLength: 0
+19:41:33.113 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+19:41:33.114 › [MessageQueue] Draining Message Queue with:  1
+19:41:33.370 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+19:41:33.371 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump=undefined
+19:42:11.036 › [MessageQueue] Queueing message to be sent LogId:357
+19:42:11.036 › [MessageQueue] Draining message from queue LogId:357 QueueLength: 0
+19:42:11.037 › [MessageQueue] Draining Message Queue with:  0
+19:42:11.592 › [MessageQueue] Finished draining message from queue LogId:357 QueueLength: 0
+19:42:16.487 › [MessageQueue] Queueing message to be sent LogId:299
+19:42:16.487 › [MessageQueue] Draining message from queue LogId:299 QueueLength: 0
+19:42:16.488 › [MessageQueue] Draining Message Queue with:  0
+19:42:16.869 › [MessageQueue] Finished draining message from queue LogId:299 QueueLength: 0
+19:42:23.702 › [MessageQueue] Queueing message to be sent LogId:5482
+19:42:23.702 › [MessageQueue] Draining message from queue LogId:5482 QueueLength: 0
+19:42:23.702 › [MessageQueue] Draining Message Queue with:  0
+19:42:24.204 › [MessageQueue] Finished draining message from queue LogId:5482 QueueLength: 0
+19:42:36.303 › [MessageQueue] Queueing message to be sent LogId:261
+19:42:36.303 › [MessageQueue] Draining message from queue LogId:261 QueueLength: 0
+19:42:36.303 › [MessageQueue] Draining Message Queue with:  0
+19:42:36.752 › [MessageQueue] Finished draining message from queue LogId:261 QueueLength: 0
+19:42:47.148 › [MessageQueue] Queueing message to be sent LogId:5659
+19:42:47.155 › [MessageQueue] Draining message from queue LogId:5659 QueueLength: 0
+19:42:47.156 › [MessageQueue] Draining Message Queue with:  0
+19:42:47.702 › [MessageQueue] Finished draining message from queue LogId:5659 QueueLength: 0
+19:43:04.994 › [MessageQueue] Queueing message to be sent LogId:5467
+19:43:04.994 › [MessageQueue] Draining message from queue LogId:5467 QueueLength: 0
+19:43:04.994 › [MessageQueue] Draining Message Queue with:  0
+19:43:05.294 › [MessageQueue] Finished draining message from queue LogId:5467 QueueLength: 0
+19:43:06.111 › [MessageQueue] Queueing message to be sent LogId:7562
+19:43:06.112 › [MessageQueue] Draining message from queue LogId:7562 QueueLength: 0
+19:43:06.112 › [MessageQueue] Draining Message Queue with:  0
+19:43:06.469 › [MessageQueue] Finished draining message from queue LogId:7562 QueueLength: 0
+19:43:07.249 › [MessageQueue] Queueing message to be sent LogId:9455
+19:43:07.249 › [MessageQueue] Draining message from queue LogId:9455 QueueLength: 0
+19:43:07.250 › [MessageQueue] Draining Message Queue with:  0
+19:43:07.605 › [MessageQueue] Finished draining message from queue LogId:9455 QueueLength: 0
+19:43:21.694 › [MessageQueue] Queueing message to be sent LogId:1032
+19:43:21.694 › [MessageQueue] Draining message from queue LogId:1032 QueueLength: 0
+19:43:21.695 › [MessageQueue] Draining Message Queue with:  0
+19:43:22.079 › [MessageQueue] Finished draining message from queue LogId:1032 QueueLength: 0
+19:43:22.158 › [MessageQueue] Queueing message to be sent LogId:9023
+19:43:22.158 › [MessageQueue] Draining message from queue LogId:9023 QueueLength: 0
+19:43:22.158 › [MessageQueue] Draining Message Queue with:  0
+19:43:22.416 › [MessageQueue] Finished draining message from queue LogId:9023 QueueLength: 0
+19:43:44.813 › [MessageQueue] Queueing message to be sent LogId:6122
+19:43:44.814 › [MessageQueue] Draining message from queue LogId:6122 QueueLength: 0
+19:43:44.814 › [MessageQueue] Draining Message Queue with:  0
+19:43:45.110 › [MessageQueue] Finished draining message from queue LogId:6122 QueueLength: 0
+19:43:54.017 › [MessageQueue] Queueing message to be sent LogId:6598
+19:43:54.018 › [MessageQueue] Draining message from queue LogId:6598 QueueLength: 0
+19:43:54.018 › [MessageQueue] Draining Message Queue with:  0
+19:43:54.617 › [MessageQueue] Finished draining message from queue LogId:6598 QueueLength: 0
+19:43:59.073 › [MessageQueue] Queueing message to be sent LogId:4240
+19:43:59.073 › [MessageQueue] Draining message from queue LogId:4240 QueueLength: 0
+19:43:59.073 › [MessageQueue] Draining Message Queue with:  0
+19:43:59.468 › [MessageQueue] Finished draining message from queue LogId:4240 QueueLength: 0
+19:44:00.161 › [MessageQueue] Queueing message to be sent LogId:2344
+19:44:00.162 › [MessageQueue] Draining message from queue LogId:2344 QueueLength: 0
+19:44:00.162 › [MessageQueue] Draining Message Queue with:  0
+19:44:00.755 › [MessageQueue] Finished draining message from queue LogId:2344 QueueLength: 0
+19:45:27.112 › [MessageQueue] Queueing message to be sent LogId:4056
+19:45:27.113 › [MessageQueue] Draining message from queue LogId:4056 QueueLength: 0
+19:45:27.113 › [MessageQueue] Draining Message Queue with:  0
+19:45:27.354 › [MessageQueue] Finished draining message from queue LogId:4056 QueueLength: 0
+19:45:34.310 › [MessageQueue] Queueing message to be sent LogId:9498
+19:45:34.311 › [MessageQueue] Draining message from queue LogId:9498 QueueLength: 0
+19:45:34.311 › [MessageQueue] Draining Message Queue with:  0
+19:45:34.658 › [MessageQueue] Finished draining message from queue LogId:9498 QueueLength: 0
+19:47:11.278 › [MessageQueue] Queueing message to be sent LogId:9054
+19:47:11.278 › [MessageQueue] Draining message from queue LogId:9054 QueueLength: 0
+19:47:11.278 › [MessageQueue] Draining Message Queue with:  0
+19:47:11.615 › [MessageQueue] Finished draining message from queue LogId:9054 QueueLength: 0
+19:47:31.763 › [MessageQueue] Queueing message to be sent LogId:7844
+19:47:31.763 › [MessageQueue] Draining message from queue LogId:7844 QueueLength: 0
+19:47:31.763 › [MessageQueue] Draining Message Queue with:  0
+19:47:32.422 › [MessageQueue] Finished draining message from queue LogId:7844 QueueLength: 0
+19:48:11.051 › [MessageQueue] Queueing message to be sent LogId:8203
+19:48:11.052 › [MessageQueue] Draining message from queue LogId:8203 QueueLength: 0
+19:48:11.052 › [MessageQueue] Draining Message Queue with:  0
+19:48:11.320 › [MessageQueue] Finished draining message from queue LogId:8203 QueueLength: 0
+19:48:20.293 › [MessageQueue] Queueing message to be sent LogId:4162
+19:48:20.293 › [MessageQueue] Draining message from queue LogId:4162 QueueLength: 0
+19:48:20.293 › [MessageQueue] Draining Message Queue with:  0
+19:48:20.521 › [MessageQueue] Finished draining message from queue LogId:4162 QueueLength: 0
+19:49:02.430 › [MessageQueue] Queueing message to be sent LogId:5450
+19:49:02.431 › [MessageQueue] Draining message from queue LogId:5450 QueueLength: 0
+19:49:02.431 › [MessageQueue] Draining Message Queue with:  0
+19:49:02.749 › [MessageQueue] Finished draining message from queue LogId:5450 QueueLength: 0
+19:49:03.151 › [MessageQueue] Queueing message to be sent LogId:9928
+19:49:03.158 › [MessageQueue] Draining message from queue LogId:9928 QueueLength: 0
+19:49:03.158 › [MessageQueue] Draining Message Queue with:  0
+19:49:03.431 › [MessageQueue] Finished draining message from queue LogId:9928 QueueLength: 0
+19:49:31.945 › [MessageQueue] Queueing message to be sent LogId:2849
+19:49:31.945 › [MessageQueue] Draining message from queue LogId:2849 QueueLength: 0
+19:49:31.946 › [MessageQueue] Draining Message Queue with:  0
+19:49:32.193 › [MessageQueue] Finished draining message from queue LogId:2849 QueueLength: 0
+19:49:43.712 › [MessageQueue] Queueing message to be sent LogId:9221
+19:49:43.712 › [MessageQueue] Draining message from queue LogId:9221 QueueLength: 0
+19:49:43.713 › [MessageQueue] Draining Message Queue with:  0
+19:49:44.084 › [MessageQueue] Finished draining message from queue LogId:9221 QueueLength: 0
+19:50:21.282 › [MessageQueue] Queueing message to be sent LogId:5381
+19:50:21.283 › [MessageQueue] Draining message from queue LogId:5381 QueueLength: 0
+19:50:21.283 › [MessageQueue] Draining Message Queue with:  0
+19:50:21.570 › [MessageQueue] Finished draining message from queue LogId:5381 QueueLength: 0
+19:50:21.993 › [MessageQueue] Queueing message to be sent LogId:2796
+19:50:21.993 › [MessageQueue] Draining message from queue LogId:2796 QueueLength: 0
+19:50:21.993 › [MessageQueue] Draining Message Queue with:  0
+19:50:22.340 › [MessageQueue] Finished draining message from queue LogId:2796 QueueLength: 0
+19:50:22.753 › [MessageQueue] Queueing message to be sent LogId:899
+19:50:22.753 › [MessageQueue] Draining message from queue LogId:899 QueueLength: 0
+19:50:22.754 › [MessageQueue] Draining Message Queue with:  0
+19:50:24.544 › [MessageQueue] Finished draining message from queue LogId:899 QueueLength: 0
+19:50:48.854 › [MessageQueue] Queueing message to be sent LogId:1055
+19:50:48.854 › [MessageQueue] Draining message from queue LogId:1055 QueueLength: 0
+19:50:48.854 › [MessageQueue] Draining Message Queue with:  0
+19:50:49.161 › [MessageQueue] Finished draining message from queue LogId:1055 QueueLength: 0
+19:50:54.848 › [MessageQueue] Queueing message to be sent LogId:6440
+19:50:54.848 › [MessageQueue] Draining message from queue LogId:6440 QueueLength: 0
+19:50:54.848 › [MessageQueue] Draining Message Queue with:  0
+19:50:55.343 › [MessageQueue] Finished draining message from queue LogId:6440 QueueLength: 0
+19:50:58.802 › [MessageQueue] Queueing message to be sent LogId:4350
+19:50:58.803 › [MessageQueue] Draining message from queue LogId:4350 QueueLength: 0
+19:50:58.803 › [MessageQueue] Draining Message Queue with:  0
+19:50:59.652 › [MessageQueue] Finished draining message from queue LogId:4350 QueueLength: 0
+19:51:00.747 › [MessageQueue] Queueing message to be sent LogId:6301
+19:51:00.747 › [MessageQueue] Draining message from queue LogId:6301 QueueLength: 0
+19:51:00.747 › [MessageQueue] Draining Message Queue with:  0
+19:51:01.102 › [MessageQueue] Finished draining message from queue LogId:6301 QueueLength: 0
+19:51:11.161 › [MessageQueue] Queueing message to be sent LogId:5676
+19:51:11.161 › [MessageQueue] Draining message from queue LogId:5676 QueueLength: 0
+19:51:11.162 › [MessageQueue] Draining Message Queue with:  0
+19:51:11.512 › [MessageQueue] Finished draining message from queue LogId:5676 QueueLength: 0
+19:51:50.384 › [MessageQueue] Queueing message to be sent LogId:3229
+19:51:50.384 › [MessageQueue] Draining message from queue LogId:3229 QueueLength: 0
+19:51:50.385 › [MessageQueue] Draining Message Queue with:  0
+19:51:50.735 › [MessageQueue] Finished draining message from queue LogId:3229 QueueLength: 0
+19:52:25.981 › [MessageQueue] Queueing message to be sent LogId:784
+19:52:25.981 › [MessageQueue] Draining message from queue LogId:784 QueueLength: 0
+19:52:25.982 › [MessageQueue] Draining Message Queue with:  0
+19:52:26.292 › [MessageQueue] Finished draining message from queue LogId:784 QueueLength: 0
+19:52:39.846 › [MessageQueue] Queueing message to be sent LogId:7697
+19:52:39.846 › [MessageQueue] Draining message from queue LogId:7697 QueueLength: 0
+19:52:39.846 › [MessageQueue] Draining Message Queue with:  0
+19:52:40.113 › [MessageQueue] Finished draining message from queue LogId:7697 QueueLength: 0
+19:52:59.592 › [MessageQueue] Queueing message to be sent LogId:3247
+19:52:59.593 › [MessageQueue] Draining message from queue LogId:3247 QueueLength: 0
+19:52:59.593 › [MessageQueue] Draining Message Queue with:  0
+19:52:59.951 › [MessageQueue] Finished draining message from queue LogId:3247 QueueLength: 0
+19:53:07.780 › [MessageQueue] Queueing message to be sent LogId:2992
+19:53:07.780 › [MessageQueue] Draining message from queue LogId:2992 QueueLength: 0
+19:53:07.780 › [MessageQueue] Draining Message Queue with:  0
+19:53:08.015 › [MessageQueue] Finished draining message from queue LogId:2992 QueueLength: 0
+19:53:21.157 › [MessageQueue] Queueing message to be sent LogId:8394
+19:53:21.157 › [MessageQueue] Draining message from queue LogId:8394 QueueLength: 0
+19:53:21.157 › [MessageQueue] Draining Message Queue with:  0
+19:53:21.458 › [MessageQueue] Finished draining message from queue LogId:8394 QueueLength: 0
+19:53:34.708 › [MessageQueue] Queueing message to be sent LogId:7286
+19:53:34.708 › [MessageQueue] Draining message from queue LogId:7286 QueueLength: 0
+19:53:34.708 › [MessageQueue] Draining Message Queue with:  0
+19:53:35.048 › [MessageQueue] Finished draining message from queue LogId:7286 QueueLength: 0
+19:53:44.870 › [MessageQueue] Queueing message to be sent LogId:1882
+19:53:44.870 › [MessageQueue] Draining message from queue LogId:1882 QueueLength: 0
+19:53:44.871 › [MessageQueue] Draining Message Queue with:  0
+19:53:45.145 › [MessageQueue] Finished draining message from queue LogId:1882 QueueLength: 0
+19:54:39.363 › [MessageQueue] Queueing message to be sent LogId:1725
+19:54:39.364 › [MessageQueue] Draining message from queue LogId:1725 QueueLength: 0
+19:54:39.364 › [MessageQueue] Draining Message Queue with:  0
+19:54:39.654 › [MessageQueue] Finished draining message from queue LogId:1725 QueueLength: 0
+19:55:07.581 › [MessageQueue] Queueing message to be sent LogId:7815
+19:55:07.581 › [MessageQueue] Draining message from queue LogId:7815 QueueLength: 0
+19:55:07.581 › [MessageQueue] Draining Message Queue with:  0
+19:55:07.841 › [MessageQueue] Finished draining message from queue LogId:7815 QueueLength: 0
+19:55:32.124 › [MessageQueue] Queueing message to be sent LogId:1620
+19:55:32.124 › [MessageQueue] Draining message from queue LogId:1620 QueueLength: 0
+19:55:32.124 › [MessageQueue] Draining Message Queue with:  0
+19:55:32.346 › [MessageQueue] Finished draining message from queue LogId:1620 QueueLength: 0
+19:55:36.455 › [MessageQueue] Queueing message to be sent LogId:6658
+19:55:36.455 › [MessageQueue] Draining message from queue LogId:6658 QueueLength: 0
+19:55:36.455 › [MessageQueue] Draining Message Queue with:  0
+19:55:37.007 › [MessageQueue] Finished draining message from queue LogId:6658 QueueLength: 0
+19:56:09.734 › [MessageQueue] Queueing message to be sent LogId:8215
+19:56:09.734 › [MessageQueue] Draining message from queue LogId:8215 QueueLength: 0
+19:56:09.734 › [MessageQueue] Draining Message Queue with:  0
+19:56:10.133 › [MessageQueue] Finished draining message from queue LogId:8215 QueueLength: 0
+19:56:35.804 › [MessageQueue] Queueing message to be sent LogId:7820
+19:56:35.805 › [MessageQueue] Draining message from queue LogId:7820 QueueLength: 0
+19:56:35.805 › [MessageQueue] Draining Message Queue with:  0
+19:56:36.077 › [MessageQueue] Finished draining message from queue LogId:7820 QueueLength: 0
+19:56:37.063 › [MessageQueue] Queueing message to be sent LogId:2265
+19:56:37.064 › [MessageQueue] Draining message from queue LogId:2265 QueueLength: 0
+19:56:37.064 › [MessageQueue] Draining Message Queue with:  0
+19:56:37.595 › [MessageQueue] Finished draining message from queue LogId:2265 QueueLength: 0
+19:56:38.046 › [MessageQueue] Queueing message to be sent LogId:2293
+19:56:38.046 › [MessageQueue] Draining message from queue LogId:2293 QueueLength: 0
+19:56:38.046 › [MessageQueue] Draining Message Queue with:  0
+19:56:38.313 › [MessageQueue] Finished draining message from queue LogId:2293 QueueLength: 0
+19:56:39.079 › [MessageQueue] Queueing message to be sent LogId:737
+19:56:39.079 › [MessageQueue] Draining message from queue LogId:737 QueueLength: 0
+19:56:39.079 › [MessageQueue] Draining Message Queue with:  0
+19:56:39.426 › [MessageQueue] Finished draining message from queue LogId:737 QueueLength: 0
+19:56:59.600 › [MessageQueue] Queueing message to be sent LogId:3227
+19:56:59.600 › [MessageQueue] Draining message from queue LogId:3227 QueueLength: 0
+19:56:59.600 › [MessageQueue] Draining Message Queue with:  0
+19:57:00.072 › [MessageQueue] Finished draining message from queue LogId:3227 QueueLength: 0
+19:57:47.786 › [MessageQueue] Queueing message to be sent LogId:2944
+19:57:47.786 › [MessageQueue] Draining message from queue LogId:2944 QueueLength: 0
+19:57:47.787 › [MessageQueue] Draining Message Queue with:  0
+19:57:48.045 › [MessageQueue] Finished draining message from queue LogId:2944 QueueLength: 0
+19:58:13.217 › [MessageQueue] Queueing message to be sent LogId:9885
+19:58:13.218 › [MessageQueue] Draining message from queue LogId:9885 QueueLength: 0
+19:58:13.218 › [MessageQueue] Draining Message Queue with:  0
+19:58:13.693 › [MessageQueue] Finished draining message from queue LogId:9885 QueueLength: 0
+19:58:28.440 › [MessageQueue] Queueing message to be sent LogId:8189
+19:58:28.441 › [MessageQueue] Draining message from queue LogId:8189 QueueLength: 0
+19:58:28.441 › [MessageQueue] Draining Message Queue with:  0
+19:58:28.841 › [MessageQueue] Finished draining message from queue LogId:8189 QueueLength: 0
+19:59:05.242 › [MessageQueue] Queueing message to be sent LogId:1981
+19:59:05.243 › [MessageQueue] Draining message from queue LogId:1981 QueueLength: 0
+19:59:05.243 › [MessageQueue] Draining Message Queue with:  0
+19:59:05.836 › [MessageQueue] Finished draining message from queue LogId:1981 QueueLength: 0
+19:59:18.692 › [MessageQueue] Queueing message to be sent LogId:7091
+19:59:18.693 › [MessageQueue] Draining message from queue LogId:7091 QueueLength: 0
+19:59:18.693 › [MessageQueue] Draining Message Queue with:  0
+19:59:19.057 › [MessageQueue] Finished draining message from queue LogId:7091 QueueLength: 0
+19:59:42.670 › [MessageQueue] Queueing message to be sent LogId:9245
+19:59:42.671 › [MessageQueue] Draining message from queue LogId:9245 QueueLength: 0
+19:59:42.671 › [MessageQueue] Draining Message Queue with:  0
+19:59:42.905 › [MessageQueue] Finished draining message from queue LogId:9245 QueueLength: 0
+20:01:13.375 › [MessageQueue] Queueing message to be sent LogId:8575
+20:01:13.376 › [MessageQueue] Draining message from queue LogId:8575 QueueLength: 0
+20:01:13.376 › [MessageQueue] Draining Message Queue with:  0
+20:01:13.664 › [MessageQueue] Finished draining message from queue LogId:8575 QueueLength: 0
+20:03:42.203 › [MessageQueue] Queueing message to be sent LogId:9041
+20:03:42.204 › [MessageQueue] Draining message from queue LogId:9041 QueueLength: 0
+20:03:42.204 › [MessageQueue] Draining Message Queue with:  0
+20:03:42.611 › [MessageQueue] Finished draining message from queue LogId:9041 QueueLength: 0
+20:03:57.950 › [MessageQueue] Queueing message to be sent LogId:1208
+20:03:57.950 › [MessageQueue] Draining message from queue LogId:1208 QueueLength: 0
+20:03:57.950 › [MessageQueue] Draining Message Queue with:  0
+20:03:58.312 › [MessageQueue] Finished draining message from queue LogId:1208 QueueLength: 0
+20:04:07.911 › [MessageQueue] Queueing message to be sent LogId:7510
+20:04:07.911 › [MessageQueue] Draining message from queue LogId:7510 QueueLength: 0
+20:04:07.911 › [MessageQueue] Draining Message Queue with:  0
+20:04:08.389 › [MessageQueue] Finished draining message from queue LogId:7510 QueueLength: 0
+20:04:14.917 › [MessageQueue] Queueing message to be sent LogId:6198
+20:04:14.917 › [MessageQueue] Draining message from queue LogId:6198 QueueLength: 0
+20:04:14.918 › [MessageQueue] Draining Message Queue with:  0
+20:04:15.317 › [MessageQueue] Finished draining message from queue LogId:6198 QueueLength: 0
+20:04:41.160 › [MessageQueue] Queueing message to be sent LogId:441
+20:04:41.160 › [MessageQueue] Draining message from queue LogId:441 QueueLength: 0
+20:04:41.161 › [MessageQueue] Draining Message Queue with:  0
+20:04:41.641 › [MessageQueue] Finished draining message from queue LogId:441 QueueLength: 0
+20:04:44.618 › [MessageQueue] Queueing message to be sent LogId:2473
+20:04:44.618 › [MessageQueue] Draining message from queue LogId:2473 QueueLength: 0
+20:04:44.619 › [MessageQueue] Draining Message Queue with:  0
+20:04:44.994 › [MessageQueue] Finished draining message from queue LogId:2473 QueueLength: 0
+20:05:29.390 › [MessageQueue] Queueing message to be sent LogId:7224
+20:05:29.397 › [MessageQueue] Draining message from queue LogId:7224 QueueLength: 0
+20:05:29.397 › [MessageQueue] Draining Message Queue with:  0
+20:05:29.868 › [MessageQueue] Finished draining message from queue LogId:7224 QueueLength: 0
+20:06:07.417 › [MessageQueue] Queueing message to be sent LogId:5460
+20:06:07.418 › [MessageQueue] Draining message from queue LogId:5460 QueueLength: 0
+20:06:07.418 › [MessageQueue] Draining Message Queue with:  0
+20:06:07.854 › [MessageQueue] Finished draining message from queue LogId:5460 QueueLength: 0
+20:06:15.467 › [MessageQueue] Queueing message to be sent LogId:8627
+20:06:15.468 › [MessageQueue] Draining message from queue LogId:8627 QueueLength: 0
+20:06:15.468 › [MessageQueue] Draining Message Queue with:  0
+20:06:15.798 › [MessageQueue] Finished draining message from queue LogId:8627 QueueLength: 0
+20:06:18.100 › [MessageQueue] Queueing message to be sent LogId:6199
+20:06:18.100 › [MessageQueue] Draining message from queue LogId:6199 QueueLength: 0
+20:06:18.100 › [MessageQueue] Draining Message Queue with:  0
+20:06:18.509 › [MessageQueue] Finished draining message from queue LogId:6199 QueueLength: 0
+20:06:19.703 › [MessageQueue] Queueing message to be sent LogId:1565
+20:06:19.704 › [MessageQueue] Draining message from queue LogId:1565 QueueLength: 0
+20:06:19.704 › [MessageQueue] Draining Message Queue with:  0
+20:06:20.047 › [MessageQueue] Finished draining message from queue LogId:1565 QueueLength: 0
+20:06:58.635 › [MessageQueue] Queueing message to be sent LogId:539
+20:06:58.635 › [MessageQueue] Draining message from queue LogId:539 QueueLength: 0
+20:06:58.635 › [MessageQueue] Draining Message Queue with:  0
+20:06:58.921 › [MessageQueue] Finished draining message from queue LogId:539 QueueLength: 0
+20:08:17.374 › [MessageQueue] Queueing message to be sent LogId:6326
+20:08:17.375 › [MessageQueue] Draining message from queue LogId:6326 QueueLength: 0
+20:08:17.375 › [MessageQueue] Draining Message Queue with:  0
+20:08:18.036 › [MessageQueue] Finished draining message from queue LogId:6326 QueueLength: 0
+20:08:25.040 › [MessageQueue] Queueing message to be sent LogId:3833
+20:08:25.041 › [MessageQueue] Draining message from queue LogId:3833 QueueLength: 0
+20:08:25.041 › [MessageQueue] Draining Message Queue with:  0
+20:08:25.438 › [MessageQueue] Finished draining message from queue LogId:3833 QueueLength: 0
+20:08:51.638 › [MessageQueue] Queueing message to be sent LogId:742
+20:08:51.638 › [MessageQueue] Draining message from queue LogId:742 QueueLength: 0
+20:08:51.639 › [MessageQueue] Draining Message Queue with:  0
+20:08:52.010 › [MessageQueue] Finished draining message from queue LogId:742 QueueLength: 0
+20:09:02.924 › [MessageQueue] Queueing message to be sent LogId:4269
+20:09:02.924 › [MessageQueue] Draining message from queue LogId:4269 QueueLength: 0
+20:09:02.924 › [MessageQueue] Draining Message Queue with:  0
+20:09:03.372 › [MessageQueue] Finished draining message from queue LogId:4269 QueueLength: 0
+20:09:07.804 › [MessageQueue] Queueing message to be sent LogId:9973
+20:09:07.804 › [MessageQueue] Draining message from queue LogId:9973 QueueLength: 0
+20:09:07.804 › [MessageQueue] Draining Message Queue with:  0
+20:09:08.052 › [MessageQueue] Finished draining message from queue LogId:9973 QueueLength: 0
+20:09:31.333 › [MessageQueue] Queueing message to be sent LogId:2162
+20:09:31.333 › [MessageQueue] Draining message from queue LogId:2162 QueueLength: 0
+20:09:31.333 › [MessageQueue] Draining Message Queue with:  0
+20:09:31.788 › [MessageQueue] Finished draining message from queue LogId:2162 QueueLength: 0
+20:09:37.473 › [MessageQueue] Queueing message to be sent LogId:5865
+20:09:37.474 › [MessageQueue] Draining message from queue LogId:5865 QueueLength: 0
+20:09:37.474 › [MessageQueue] Draining Message Queue with:  0
+20:09:37.927 › [MessageQueue] Finished draining message from queue LogId:5865 QueueLength: 0
+20:09:40.736 › [MessageQueue] Queueing message to be sent LogId:356
+20:09:40.736 › [MessageQueue] Draining message from queue LogId:356 QueueLength: 0
+20:09:40.736 › [MessageQueue] Draining Message Queue with:  0
+20:09:41.055 › [MessageQueue] Finished draining message from queue LogId:356 QueueLength: 0
+20:09:56.741 › [MessageQueue] Queueing message to be sent LogId:8861
+20:09:56.741 › [MessageQueue] Draining message from queue LogId:8861 QueueLength: 0
+20:09:56.741 › [MessageQueue] Draining Message Queue with:  0
+20:09:57.358 › [MessageQueue] Finished draining message from queue LogId:8861 QueueLength: 0
+20:10:19.188 › [MessageQueue] Queueing message to be sent LogId:7141
+20:10:19.188 › [MessageQueue] Draining message from queue LogId:7141 QueueLength: 0
+20:10:19.188 › [MessageQueue] Draining Message Queue with:  0
+20:10:19.508 › [MessageQueue] Finished draining message from queue LogId:7141 QueueLength: 0
+20:10:39.119 › [MessageQueue] Queueing message to be sent LogId:5899
+20:10:39.119 › [MessageQueue] Draining message from queue LogId:5899 QueueLength: 0
+20:10:39.120 › [MessageQueue] Draining Message Queue with:  0
+20:10:39.406 › [MessageQueue] Finished draining message from queue LogId:5899 QueueLength: 0
+20:11:43.365 › [MessageQueue] Queueing message to be sent LogId:3378
+20:11:43.365 › [MessageQueue] Draining message from queue LogId:3378 QueueLength: 0
+20:11:43.366 › [MessageQueue] Draining Message Queue with:  0
+20:11:43.892 › [MessageQueue] Finished draining message from queue LogId:3378 QueueLength: 0
+20:11:49.831 › [MessageQueue] Queueing message to be sent LogId:39
+20:11:49.831 › [MessageQueue] Draining message from queue LogId:39 QueueLength: 0
+20:11:49.831 › [MessageQueue] Draining Message Queue with:  0
+20:11:50.203 › [MessageQueue] Finished draining message from queue LogId:39 QueueLength: 0
+20:16:25.255 › [MessageQueue] Queueing message to be sent LogId:9369
+20:16:25.255 › [MessageQueue] Draining message from queue LogId:9369 QueueLength: 0
+20:16:25.255 › [MessageQueue] Draining Message Queue with:  0
+20:16:25.667 › [MessageQueue] Finished draining message from queue LogId:9369 QueueLength: 0
+20:16:46.401 › [MessageActionCreators] Fetching messages for 1213140532050788444 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+20:16:46.475 › [Routing/Utils] transitionTo - Transitioning to /channels/1213140531341697044/1213140532050788444
+20:16:46.712 › [MessageActionCreators] Fetched 11 messages for 1213140532050788444 isBefore:false isAfter:false
+20:16:46.714 › [ChannelMessages] loadComplete: resetting state for channelId=1213140532050788444, sending.length=0
+20:16:49.852 › [MessageActionCreators] Fetching messages for 985713122071437393 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+20:16:49.952 › [Routing/Utils] transitionTo - Transitioning to /channels/985689155428290622/985713122071437393
+20:16:50.104 › [MessageActionCreators] Fetched 11 messages for 985713122071437393 isBefore:false isAfter:false
+20:16:50.105 › [ChannelMessages] loadComplete: resetting state for channelId=985713122071437393, sending.length=0
+20:16:50.155 › [MessageActionCreators] Fetching messages for 985713122071437393 between undefined and 1510482715076595743. jump=undefined
+20:16:50.380 › [MessageActionCreators] Fetched 22 messages for 985713122071437393 isBefore:true isAfter:false
+20:16:54.655 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+20:17:02.958 › [MessageQueue] Queueing message to be sent LogId:6149
+20:17:02.959 › [MessageQueue] Draining message from queue LogId:6149 QueueLength: 0
+20:17:02.959 › [MessageQueue] Draining Message Queue with:  0
+20:17:03.195 › [MessageQueue] Finished draining message from queue LogId:6149 QueueLength: 0
+20:17:07.792 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+20:17:07.793 › [MessageQueue] Draining Message Queue with:  1
+20:17:08.008 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+20:17:08.008 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump=undefined
+20:21:28.382 › [MessageQueue] Queueing message to be sent LogId:5767
+20:21:28.383 › [MessageQueue] Draining message from queue LogId:5767 QueueLength: 0
+20:21:28.383 › [MessageQueue] Draining Message Queue with:  0
+20:21:28.785 › [MessageQueue] Finished draining message from queue LogId:5767 QueueLength: 0
+20:21:36.084 › [MessageQueue] Queueing message to be sent LogId:1740
+20:21:36.084 › [MessageQueue] Draining message from queue LogId:1740 QueueLength: 0
+20:21:36.085 › [MessageQueue] Draining Message Queue with:  0
+20:21:36.496 › [MessageQueue] Finished draining message from queue LogId:1740 QueueLength: 0
+20:21:39.612 › [MessageQueue] Queueing message to be sent LogId:6015
+20:21:39.613 › [MessageQueue] Draining message from queue LogId:6015 QueueLength: 0
+20:21:39.613 › [MessageQueue] Draining Message Queue with:  0
+20:21:39.976 › [MessageQueue] Finished draining message from queue LogId:6015 QueueLength: 0
+20:31:28.777 › [MessageActionCreators] Fetching messages for 1351021485975670804 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+20:31:28.855 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1351021485975670804
+20:31:28.973 › [MessageActionCreators] Fetched 10 messages for 1351021485975670804 isBefore:false isAfter:false
+20:31:28.975 › [ChannelMessages] loadComplete: resetting state for channelId=1351021485975670804, sending.length=0
+20:40:56.782 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+20:41:10.207 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+20:41:10.450 › [MessageActionCreators] Fetched 10 messages for 1390185611947802624 isBefore:false isAfter:false
+20:41:10.452 › [ChannelMessages] loadComplete: resetting state for channelId=1390185611947802624, sending.length=0
+20:41:21.619 › [MessageQueue] Queueing message to be sent LogId:1447
+20:41:21.619 › [MessageQueue] Draining message from queue LogId:1447 QueueLength: 0
+20:41:21.626 › [MessageQueue] Draining Message Queue with:  0
+20:41:21.992 › [MessageQueue] Finished draining message from queue LogId:1447 QueueLength: 0
+20:41:22.658 › [MessageQueue] Queueing message to be sent LogId:1569
+20:41:22.658 › [MessageQueue] Draining message from queue LogId:1569 QueueLength: 0
+20:41:22.658 › [MessageQueue] Draining Message Queue with:  0
+20:41:22.955 › [MessageQueue] Finished draining message from queue LogId:1569 QueueLength: 0
+20:41:32.521 › [Routing/Utils] transitionTo - Transitioning to /channels/@me/1390185611947802624/1390196158856560741
+20:41:32.523 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and undefined. jump={"messageId":"1390196158856560741","flash":true}
+20:41:32.730 › [MessageActionCreators] Fetched 30 messages for 1390185611947802624 isBefore:false isAfter:false
+20:41:32.733 › [ChannelMessages] loadComplete: resetting state for channelId=1390185611947802624, sending.length=0
+20:41:34.116 › [MessageActionCreators] Fetching messages for 1390185611947802624 between 1390196659719508049 and undefined. jump=undefined
+20:41:34.336 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:false isAfter:true
+20:45:53.254 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and undefined. jump={"messageId":"1390195926869479497","flash":true,"returnMessageId":"1390196082633478276"}
+20:46:24.382 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390195429479547050. jump=undefined
+20:46:24.520 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:24.627 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390194684714025051. jump=undefined
+20:46:24.770 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:25.244 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390194006897725591. jump=undefined
+20:46:25.412 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:25.842 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390193404952187032. jump=undefined
+20:46:25.994 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:26.529 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390192724954710189. jump=undefined
+20:46:26.663 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:26.764 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390192406984659045. jump=undefined
+20:46:26.914 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:27.237 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390192193842446486. jump=undefined
+20:46:27.391 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:27.884 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390191642069303387. jump=undefined
+20:46:28.032 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:28.113 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390190951196004383. jump=undefined
+20:46:28.260 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:28.521 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390189809422565438. jump=undefined
+20:46:28.656 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:29.036 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390188002952740955. jump=undefined
+20:46:29.188 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:29.633 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390187476814921758. jump=undefined
+20:46:29.845 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:29.918 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390186751896846366. jump=undefined
+20:46:30.068 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:30.257 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390185953372409907. jump=undefined
+20:46:30.418 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+20:46:30.806 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1390185745037262959. jump=undefined
+20:46:30.996 › [MessageActionCreators] Fetched 9 messages for 1390185611947802624 isBefore:true isAfter:false
+20:52:17.259 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+20:52:46.338 › [MessageQueue] Queueing message to be sent LogId:4571
+20:52:46.338 › [MessageQueue] Draining message from queue LogId:4571 QueueLength: 0
+20:52:46.338 › [MessageQueue] Draining Message Queue with:  0
+20:52:46.856 › [MessageQueue] Finished draining message from queue LogId:4571 QueueLength: 0
+20:52:51.569 › [MessageQueue] Queueing message to be sent LogId:8448
+20:52:51.569 › [MessageQueue] Draining message from queue LogId:8448 QueueLength: 0
+20:52:51.570 › [MessageQueue] Draining Message Queue with:  0
+20:52:51.857 › [MessageQueue] Finished draining message from queue LogId:8448 QueueLength: 0
+20:53:05.590 › [MessageQueue] Queueing message to be sent LogId:1839
+20:53:05.590 › [MessageQueue] Draining message from queue LogId:1839 QueueLength: 0
+20:53:05.591 › [MessageQueue] Draining Message Queue with:  0
+20:53:06.230 › [MessageQueue] Finished draining message from queue LogId:1839 QueueLength: 0
+20:53:17.936 › [MessageQueue] Queueing message to be sent LogId:998
+20:53:17.936 › [MessageQueue] Draining message from queue LogId:998 QueueLength: 0
+20:53:17.937 › [MessageQueue] Draining Message Queue with:  0
+20:53:18.270 › [MessageQueue] Finished draining message from queue LogId:998 QueueLength: 0
+20:53:26.224 › [MessageQueue] Queueing message to be sent LogId:6654
+20:53:26.224 › [MessageQueue] Draining message from queue LogId:6654 QueueLength: 0
+20:53:26.224 › [MessageQueue] Draining Message Queue with:  0
+20:53:26.538 › [MessageQueue] Finished draining message from queue LogId:6654 QueueLength: 0
+20:53:34.753 › [MessageQueue] Queueing message to be sent LogId:7966
+20:53:34.754 › [MessageQueue] Draining message from queue LogId:7966 QueueLength: 0
+20:53:34.754 › [MessageQueue] Draining Message Queue with:  0
+20:53:35.082 › [MessageQueue] Finished draining message from queue LogId:7966 QueueLength: 0
+20:53:38.860 › [MessageQueue] Queueing message to be sent LogId:1065
+20:53:38.867 › [MessageQueue] Draining message from queue LogId:1065 QueueLength: 0
+20:53:38.867 › [MessageQueue] Draining Message Queue with:  0
+20:53:39.356 › [MessageQueue] Finished draining message from queue LogId:1065 QueueLength: 0
+20:53:40.501 › [MessageQueue] Queueing message to be sent LogId:8883
+20:53:40.502 › [MessageQueue] Draining message from queue LogId:8883 QueueLength: 0
+20:53:40.502 › [MessageQueue] Draining Message Queue with:  0
+20:53:40.843 › [MessageQueue] Finished draining message from queue LogId:8883 QueueLength: 0
+20:54:22.649 › [MessageQueue] Queueing message to be sent LogId:2647
+20:54:22.649 › [MessageQueue] Draining message from queue LogId:2647 QueueLength: 0
+20:54:22.650 › [MessageQueue] Draining Message Queue with:  0
+20:54:22.998 › [MessageQueue] Finished draining message from queue LogId:2647 QueueLength: 0
+20:54:55.942 › [MessageQueue] Queueing message to be sent LogId:5168
+20:54:55.942 › [MessageQueue] Draining message from queue LogId:5168 QueueLength: 0
+20:54:55.942 › [MessageQueue] Draining Message Queue with:  0
+20:54:56.304 › [MessageQueue] Finished draining message from queue LogId:5168 QueueLength: 0
+20:54:57.229 › [MessageQueue] Queueing message to be sent LogId:3217
+20:54:57.229 › [MessageQueue] Draining message from queue LogId:3217 QueueLength: 0
+20:54:57.229 › [MessageQueue] Draining Message Queue with:  0
+20:54:57.583 › [MessageQueue] Finished draining message from queue LogId:3217 QueueLength: 0
+20:55:15.980 › [MessageQueue] Queueing message to be sent LogId:2122
+20:55:15.980 › [MessageQueue] Draining message from queue LogId:2122 QueueLength: 0
+20:55:15.981 › [MessageQueue] Draining Message Queue with:  0
+20:55:16.338 › [MessageQueue] Finished draining message from queue LogId:2122 QueueLength: 0
+20:55:36.857 › [MessageQueue] Queueing message to be sent LogId:6904
+20:55:36.857 › [MessageQueue] Draining message from queue LogId:6904 QueueLength: 0
+20:55:36.858 › [MessageQueue] Draining Message Queue with:  0
+20:55:37.240 › [MessageQueue] Finished draining message from queue LogId:6904 QueueLength: 0
+20:56:04.098 › [MessageQueue] Queueing message to be sent LogId:9624
+20:56:04.099 › [MessageQueue] Draining message from queue LogId:9624 QueueLength: 0
+20:56:04.099 › [MessageQueue] Draining Message Queue with:  0
+20:56:04.429 › [MessageQueue] Finished draining message from queue LogId:9624 QueueLength: 0
+20:56:23.569 › [MessageQueue] Queueing message to be sent LogId:5936
+20:56:23.569 › [MessageQueue] Draining message from queue LogId:5936 QueueLength: 0
+20:56:23.570 › [MessageQueue] Draining Message Queue with:  0
+20:56:24.123 › [MessageQueue] Finished draining message from queue LogId:5936 QueueLength: 0
+20:56:26.409 › [MessageQueue] Queueing message to be sent LogId:3519
+20:56:26.409 › [MessageQueue] Draining message from queue LogId:3519 QueueLength: 0
+20:56:26.410 › [MessageQueue] Draining Message Queue with:  0
+20:56:26.732 › [MessageQueue] Finished draining message from queue LogId:3519 QueueLength: 0
+20:56:35.733 › [MessageQueue] Queueing message to be sent LogId:5492
+20:56:35.733 › [MessageQueue] Draining message from queue LogId:5492 QueueLength: 0
+20:56:35.733 › [MessageQueue] Draining Message Queue with:  0
+20:56:36.049 › [MessageQueue] Finished draining message from queue LogId:5492 QueueLength: 0
+20:56:38.351 › [MessageQueue] Queueing message to be sent LogId:8994
+20:56:38.352 › [MessageQueue] Draining message from queue LogId:8994 QueueLength: 0
+20:56:38.352 › [MessageQueue] Draining Message Queue with:  0
+20:56:38.697 › [MessageQueue] Finished draining message from queue LogId:8994 QueueLength: 0
+20:56:56.485 › [MessageQueue] Queueing message to be sent LogId:2185
+20:56:56.485 › [MessageQueue] Draining message from queue LogId:2185 QueueLength: 0
+20:56:56.485 › [MessageQueue] Draining Message Queue with:  0
+20:56:56.882 › [MessageQueue] Finished draining message from queue LogId:2185 QueueLength: 0
+20:56:59.982 › [MessageQueue] Queueing message to be sent LogId:3659
+20:56:59.982 › [MessageQueue] Draining message from queue LogId:3659 QueueLength: 0
+20:56:59.982 › [MessageQueue] Draining Message Queue with:  0
+20:57:00.308 › [MessageQueue] Finished draining message from queue LogId:3659 QueueLength: 0
+20:57:05.392 › [MessageQueue] Queueing message to be sent LogId:354
+20:57:05.392 › [MessageQueue] Draining message from queue LogId:354 QueueLength: 0
+20:57:05.392 › [MessageQueue] Draining Message Queue with:  0
+20:57:05.715 › [MessageQueue] Finished draining message from queue LogId:354 QueueLength: 0
+20:57:17.293 › [MessageQueue] Queueing message to be sent LogId:4671
+20:57:17.293 › [MessageQueue] Draining message from queue LogId:4671 QueueLength: 0
+20:57:17.294 › [MessageQueue] Draining Message Queue with:  0
+20:57:17.776 › [MessageQueue] Finished draining message from queue LogId:4671 QueueLength: 0
+20:57:31.548 › [MessageQueue] Queueing message to be sent LogId:6508
+20:57:31.549 › [MessageQueue] Draining message from queue LogId:6508 QueueLength: 0
+20:57:31.549 › [MessageQueue] Draining Message Queue with:  0
+20:57:31.909 › [MessageQueue] Finished draining message from queue LogId:6508 QueueLength: 0
+20:57:56.590 › [MessageQueue] Queueing message to be sent LogId:2472
+20:57:56.591 › [MessageQueue] Draining message from queue LogId:2472 QueueLength: 0
+20:57:56.591 › [MessageQueue] Draining Message Queue with:  0
+20:57:57.153 › [MessageQueue] Finished draining message from queue LogId:2472 QueueLength: 0
+20:58:08.799 › [MessageQueue] Queueing message to be sent LogId:6604
+20:58:08.799 › [MessageQueue] Draining message from queue LogId:6604 QueueLength: 0
+20:58:08.799 › [MessageQueue] Draining Message Queue with:  0
+20:58:09.102 › [MessageQueue] Finished draining message from queue LogId:6604 QueueLength: 0
+20:58:17.531 › [MessageQueue] Queueing message to be sent LogId:225
+20:58:17.531 › [MessageQueue] Draining message from queue LogId:225 QueueLength: 0
+20:58:17.531 › [MessageQueue] Draining Message Queue with:  0
+20:58:18.481 › [MessageQueue] Finished draining message from queue LogId:225 QueueLength: 0
+20:58:28.964 › [MessageQueue] Queueing message to be sent LogId:8384
+20:58:28.964 › [MessageQueue] Draining message from queue LogId:8384 QueueLength: 0
+20:58:28.964 › [MessageQueue] Draining Message Queue with:  0
+20:58:29.255 › [MessageQueue] Finished draining message from queue LogId:8384 QueueLength: 0
+20:58:34.897 › [MessageQueue] Queueing message to be sent LogId:3858
+20:58:34.898 › [MessageQueue] Draining message from queue LogId:3858 QueueLength: 0
+20:58:34.898 › [MessageQueue] Draining Message Queue with:  0
+20:58:35.353 › [MessageQueue] Finished draining message from queue LogId:3858 QueueLength: 0
+20:58:38.606 › [MessageQueue] Queueing message to be sent LogId:788
+20:58:38.606 › [MessageQueue] Draining message from queue LogId:788 QueueLength: 0
+20:58:38.606 › [MessageQueue] Draining Message Queue with:  0
+20:58:39.248 › [MessageQueue] Finished draining message from queue LogId:788 QueueLength: 0
+20:59:35.188 › [MessageQueue] Queueing message to be sent LogId:933
+20:59:35.188 › [MessageQueue] Draining message from queue LogId:933 QueueLength: 0
+20:59:35.188 › [MessageQueue] Draining Message Queue with:  0
+20:59:36.122 › [MessageQueue] Finished draining message from queue LogId:933 QueueLength: 0
+21:00:04.814 › [MessageQueue] Queueing message to be sent LogId:2357
+21:00:04.814 › [MessageQueue] Draining message from queue LogId:2357 QueueLength: 0
+21:00:04.814 › [MessageQueue] Draining Message Queue with:  0
+21:00:05.390 › [MessageQueue] Finished draining message from queue LogId:2357 QueueLength: 0
+21:00:06.302 › [MessageQueue] Queueing message to be sent LogId:29
+21:00:06.302 › [MessageQueue] Draining message from queue LogId:29 QueueLength: 0
+21:00:06.302 › [MessageQueue] Draining Message Queue with:  0
+21:00:06.579 › [MessageQueue] Finished draining message from queue LogId:29 QueueLength: 0
+21:00:36.149 › [MessageQueue] Queueing message to be sent LogId:2770
+21:00:36.149 › [MessageQueue] Draining message from queue LogId:2770 QueueLength: 0
+21:00:36.149 › [MessageQueue] Draining Message Queue with:  0
+21:00:36.516 › [MessageQueue] Finished draining message from queue LogId:2770 QueueLength: 0
+21:00:37.964 › [MessageQueue] Queueing message to be sent LogId:1507
+21:00:37.965 › [MessageQueue] Draining message from queue LogId:1507 QueueLength: 0
+21:00:37.965 › [MessageQueue] Draining Message Queue with:  0
+21:00:38.315 › [MessageQueue] Finished draining message from queue LogId:1507 QueueLength: 0
+21:00:58.378 › [MessageQueue] Queueing message to be sent LogId:1378
+21:00:58.379 › [MessageQueue] Draining message from queue LogId:1378 QueueLength: 0
+21:00:58.379 › [MessageQueue] Draining Message Queue with:  0
+21:00:58.700 › [MessageQueue] Finished draining message from queue LogId:1378 QueueLength: 0
+21:01:07.726 › [MessageQueue] Queueing message to be sent LogId:3300
+21:01:07.726 › [MessageQueue] Draining message from queue LogId:3300 QueueLength: 0
+21:01:07.726 › [MessageQueue] Draining Message Queue with:  0
+21:01:08.236 › [MessageQueue] Finished draining message from queue LogId:3300 QueueLength: 0
+21:01:21.938 › [MessageQueue] Queueing message to be sent LogId:734
+21:01:21.938 › [MessageQueue] Draining message from queue LogId:734 QueueLength: 0
+21:01:21.938 › [MessageQueue] Draining Message Queue with:  0
+21:01:22.342 › [MessageQueue] Finished draining message from queue LogId:734 QueueLength: 0
+21:01:25.920 › [MessageQueue] Queueing message to be sent LogId:1366
+21:01:25.920 › [MessageQueue] Draining message from queue LogId:1366 QueueLength: 0
+21:01:25.920 › [MessageQueue] Draining Message Queue with:  0
+21:01:26.445 › [MessageQueue] Finished draining message from queue LogId:1366 QueueLength: 0
+21:01:27.074 › [MessageQueue] Queueing message to be sent LogId:4128
+21:01:27.074 › [MessageQueue] Draining message from queue LogId:4128 QueueLength: 0
+21:01:27.074 › [MessageQueue] Draining Message Queue with:  0
+21:01:27.486 › [MessageQueue] Finished draining message from queue LogId:4128 QueueLength: 0
+21:01:45.928 › [MessageQueue] Queueing message to be sent LogId:6103
+21:01:45.928 › [MessageQueue] Draining message from queue LogId:6103 QueueLength: 0
+21:01:45.928 › [MessageQueue] Draining Message Queue with:  0
+21:01:46.246 › [MessageQueue] Finished draining message from queue LogId:6103 QueueLength: 0
+21:02:05.426 › [MessageQueue] Queueing message to be sent LogId:4213
+21:02:05.426 › [MessageQueue] Draining message from queue LogId:4213 QueueLength: 0
+21:02:05.426 › [MessageQueue] Draining Message Queue with:  0
+21:02:06.315 › [MessageQueue] Finished draining message from queue LogId:4213 QueueLength: 0
+21:02:11.626 › [MessageQueue] Queueing message to be sent LogId:6200
+21:02:11.627 › [MessageQueue] Draining message from queue LogId:6200 QueueLength: 0
+21:02:11.627 › [MessageQueue] Draining Message Queue with:  0
+21:02:11.981 › [MessageQueue] Finished draining message from queue LogId:6200 QueueLength: 0
+21:02:26.002 › [MessageQueue] Queueing message to be sent LogId:4853
+21:02:26.003 › [MessageQueue] Draining message from queue LogId:4853 QueueLength: 0
+21:02:26.003 › [MessageQueue] Draining Message Queue with:  0
+21:02:26.342 › [MessageQueue] Finished draining message from queue LogId:4853 QueueLength: 0
+21:03:02.010 › [MessageQueue] Queueing message to be sent LogId:1976
+21:03:02.010 › [MessageQueue] Draining message from queue LogId:1976 QueueLength: 0
+21:03:02.010 › [MessageQueue] Draining Message Queue with:  0
+21:03:02.257 › [MessageQueue] Finished draining message from queue LogId:1976 QueueLength: 0
+21:03:29.130 › [MessageQueue] Queueing message to be sent LogId:4045
+21:03:29.130 › [MessageQueue] Draining message from queue LogId:4045 QueueLength: 0
+21:03:29.131 › [MessageQueue] Draining Message Queue with:  0
+21:03:29.375 › [MessageQueue] Finished draining message from queue LogId:4045 QueueLength: 0
+21:03:46.605 › [MessageQueue] Queueing message to be sent LogId:1410
+21:03:46.605 › [MessageQueue] Draining message from queue LogId:1410 QueueLength: 0
+21:03:46.605 › [MessageQueue] Draining Message Queue with:  0
+21:03:46.892 › [MessageQueue] Finished draining message from queue LogId:1410 QueueLength: 0
+21:03:51.723 › [MessageQueue] Queueing message to be sent LogId:4155
+21:03:51.730 › [MessageQueue] Draining message from queue LogId:4155 QueueLength: 0
+21:03:51.730 › [MessageQueue] Draining Message Queue with:  0
+21:03:52.321 › [MessageQueue] Finished draining message from queue LogId:4155 QueueLength: 0
+21:03:55.081 › [MessageQueue] Queueing message to be sent LogId:3701
+21:03:55.081 › [MessageQueue] Draining message from queue LogId:3701 QueueLength: 0
+21:03:55.082 › [MessageQueue] Draining Message Queue with:  0
+21:03:55.525 › [MessageQueue] Finished draining message from queue LogId:3701 QueueLength: 0
+21:04:15.196 › [MessageQueue] Queueing message to be sent LogId:6463
+21:04:15.196 › [MessageQueue] Draining message from queue LogId:6463 QueueLength: 0
+21:04:15.197 › [MessageQueue] Draining Message Queue with:  0
+21:04:15.527 › [MessageQueue] Finished draining message from queue LogId:6463 QueueLength: 0
+21:04:26.810 › [MessageQueue] Queueing message to be sent LogId:9134
+21:04:26.810 › [MessageQueue] Draining message from queue LogId:9134 QueueLength: 0
+21:04:26.810 › [MessageQueue] Draining Message Queue with:  0
+21:04:27.157 › [MessageQueue] Finished draining message from queue LogId:9134 QueueLength: 0
+21:04:40.618 › [MessageQueue] Queueing message to be sent LogId:5388
+21:04:40.618 › [MessageQueue] Draining message from queue LogId:5388 QueueLength: 0
+21:04:40.619 › [MessageQueue] Draining Message Queue with:  0
+21:04:40.913 › [MessageQueue] Finished draining message from queue LogId:5388 QueueLength: 0
+21:04:45.916 › [MessageQueue] Queueing message to be sent LogId:8839
+21:04:45.916 › [MessageQueue] Draining message from queue LogId:8839 QueueLength: 0
+21:04:45.916 › [MessageQueue] Draining Message Queue with:  0
+21:04:46.441 › [MessageQueue] Finished draining message from queue LogId:8839 QueueLength: 0
+21:04:55.899 › [MessageQueue] Queueing message to be sent LogId:532
+21:04:55.899 › [MessageQueue] Draining message from queue LogId:532 QueueLength: 0
+21:04:55.900 › [MessageQueue] Draining Message Queue with:  0
+21:04:56.321 › [MessageQueue] Finished draining message from queue LogId:532 QueueLength: 0
+21:05:39.300 › [MessageQueue] Queueing message to be sent LogId:8941
+21:05:39.300 › [MessageQueue] Draining message from queue LogId:8941 QueueLength: 0
+21:05:39.300 › [MessageQueue] Draining Message Queue with:  0
+21:05:39.601 › [MessageQueue] Finished draining message from queue LogId:8941 QueueLength: 0
+21:05:56.247 › [MessageQueue] Queueing message to be sent LogId:5199
+21:05:56.247 › [MessageQueue] Draining message from queue LogId:5199 QueueLength: 0
+21:05:56.247 › [MessageQueue] Draining Message Queue with:  0
+21:05:56.561 › [MessageQueue] Finished draining message from queue LogId:5199 QueueLength: 0
+21:06:27.679 › [MessageQueue] Queueing message to be sent LogId:275
+21:06:27.679 › [MessageQueue] Draining message from queue LogId:275 QueueLength: 0
+21:06:27.679 › [MessageQueue] Draining Message Queue with:  0
+21:06:27.929 › [MessageQueue] Finished draining message from queue LogId:275 QueueLength: 0
+21:07:17.242 › [MessageQueue] Queueing message to be sent LogId:9637
+21:07:17.242 › [MessageQueue] Draining message from queue LogId:9637 QueueLength: 0
+21:07:17.242 › [MessageQueue] Draining Message Queue with:  0
+21:07:17.574 › [MessageQueue] Finished draining message from queue LogId:9637 QueueLength: 0
+21:09:50.402 › [MessageQueue] Queueing message to be sent LogId:2435
+21:09:50.402 › [MessageQueue] Draining message from queue LogId:2435 QueueLength: 0
+21:09:50.402 › [MessageQueue] Draining Message Queue with:  0
+21:09:50.716 › [MessageQueue] Finished draining message from queue LogId:2435 QueueLength: 0
+21:10:48.946 › [MessageQueue] Queueing message to be sent LogId:9066
+21:10:48.946 › [MessageQueue] Draining message from queue LogId:9066 QueueLength: 0
+21:10:48.947 › [MessageQueue] Draining Message Queue with:  0
+21:10:49.414 › [MessageQueue] Finished draining message from queue LogId:9066 QueueLength: 0
+21:10:53.323 › [MessageQueue] Queueing message to be sent LogId:1516
+21:10:53.324 › [MessageQueue] Draining message from queue LogId:1516 QueueLength: 0
+21:10:53.324 › [MessageQueue] Draining Message Queue with:  0
+21:10:53.823 › [MessageQueue] Finished draining message from queue LogId:1516 QueueLength: 0
+21:11:11.078 › [MessageQueue] Queueing message to be sent LogId:1389
+21:11:11.078 › [MessageQueue] Draining message from queue LogId:1389 QueueLength: 0
+21:11:11.078 › [MessageQueue] Draining Message Queue with:  0
+21:11:11.310 › [MessageQueue] Finished draining message from queue LogId:1389 QueueLength: 0
+21:11:15.993 › [MessageQueue] Queueing message to be sent LogId:6530
+21:11:15.994 › [MessageQueue] Draining message from queue LogId:6530 QueueLength: 0
+21:11:15.994 › [MessageQueue] Draining Message Queue with:  0
+21:11:16.290 › [MessageQueue] Finished draining message from queue LogId:6530 QueueLength: 0
+21:11:30.691 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and undefined. jump={"present":true}
+21:11:30.693 › [Routing/Utils] transitionTo - Transitioning to /channels/@me/1390185611947802624
+21:11:30.696 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and undefined. jump={"present":true}
+21:11:30.697 › [Routing/Utils] transitionTo - Transitioning to /channels/@me/1390185611947802624
+21:11:30.836 › [MessageActionCreators] Fetched 10 messages for 1390185611947802624 isBefore:false isAfter:false
+21:11:30.837 › [ChannelMessages] loadComplete: resetting state for channelId=1390185611947802624, sending.length=0
+21:11:30.981 › [MessageActionCreators] Fetched 10 messages for 1390185611947802624 isBefore:false isAfter:false
+21:11:30.981 › [ChannelMessages] loadComplete: resetting state for channelId=1390185611947802624, sending.length=0
+21:11:30.999 › [MessageActionCreators] Fetching messages for 1390185611947802624 between undefined and 1507923707241300149. jump=undefined
+21:11:31.182 › [MessageActionCreators] Fetched 20 messages for 1390185611947802624 isBefore:true isAfter:false
+21:11:43.626 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+21:12:19.309 › [MessageQueue] Queueing message to be sent LogId:3392
+21:12:19.309 › [MessageQueue] Draining message from queue LogId:3392 QueueLength: 0
+21:12:19.309 › [MessageQueue] Draining Message Queue with:  0
+21:12:19.883 › [MessageQueue] Finished draining message from queue LogId:3392 QueueLength: 0
+21:12:20.885 › [MessageQueue] Queueing message to be sent LogId:6436
+21:12:20.886 › [MessageQueue] Draining message from queue LogId:6436 QueueLength: 0
+21:12:20.886 › [MessageQueue] Draining Message Queue with:  0
+21:12:21.257 › [MessageQueue] Finished draining message from queue LogId:6436 QueueLength: 0
+21:12:29.161 › [MessageQueue] Queueing message to be sent LogId:9004
+21:12:29.161 › [MessageQueue] Draining message from queue LogId:9004 QueueLength: 0
+21:12:29.162 › [MessageQueue] Draining Message Queue with:  0
+21:12:29.520 › [MessageQueue] Finished draining message from queue LogId:9004 QueueLength: 0
+21:12:43.088 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+21:12:43.088 › [MessageQueue] Draining Message Queue with:  1
+21:12:43.259 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+21:12:43.260 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump=undefined
+21:12:46.500 › [MessageQueue] Queueing message to be sent LogId:1209
+21:12:46.500 › [MessageQueue] Draining message from queue LogId:1209 QueueLength: 0
+21:12:46.500 › [MessageQueue] Draining Message Queue with:  0
+21:12:46.957 › [MessageQueue] Finished draining message from queue LogId:1209 QueueLength: 0
+21:12:57.368 › [MessageQueue] Queueing message to be sent LogId:3843
+21:12:57.368 › [MessageQueue] Draining message from queue LogId:3843 QueueLength: 0
+21:12:57.368 › [MessageQueue] Draining Message Queue with:  0
+21:12:57.877 › [MessageQueue] Finished draining message from queue LogId:3843 QueueLength: 0
+21:13:00.588 › [MessageQueue] Queueing message to be sent LogId:4660
+21:13:00.589 › [MessageQueue] Draining message from queue LogId:4660 QueueLength: 0
+21:13:00.589 › [MessageQueue] Draining Message Queue with:  0
+21:13:00.880 › [MessageQueue] Finished draining message from queue LogId:4660 QueueLength: 0
+21:13:01.263 › [MessageQueue] Queueing message to be sent LogId:9841
+21:13:01.263 › [MessageQueue] Draining message from queue LogId:9841 QueueLength: 0
+21:13:01.263 › [MessageQueue] Draining Message Queue with:  0
+21:13:01.616 › [MessageQueue] Finished draining message from queue LogId:9841 QueueLength: 0
+21:13:03.459 › [MessageQueue] Queueing message to be sent LogId:2176
+21:13:03.459 › [MessageQueue] Draining message from queue LogId:2176 QueueLength: 0
+21:13:03.459 › [MessageQueue] Draining Message Queue with:  0
+21:13:03.932 › [MessageQueue] Finished draining message from queue LogId:2176 QueueLength: 0
+21:13:15.490 › [MessageQueue] Queueing message to be sent LogId:3850
+21:13:15.490 › [MessageQueue] Draining message from queue LogId:3850 QueueLength: 0
+21:13:15.490 › [MessageQueue] Draining Message Queue with:  0
+21:13:15.797 › [MessageQueue] Finished draining message from queue LogId:3850 QueueLength: 0
+21:13:27.318 › [MessageQueue] Queueing message to be sent LogId:1213
+21:13:27.318 › [MessageQueue] Draining message from queue LogId:1213 QueueLength: 0
+21:13:27.318 › [MessageQueue] Draining Message Queue with:  0
+21:13:27.677 › [MessageQueue] Finished draining message from queue LogId:1213 QueueLength: 0
+21:13:28.595 › [MessageQueue] Queueing message to be sent LogId:7236
+21:13:28.596 › [MessageQueue] Draining message from queue LogId:7236 QueueLength: 0
+21:13:28.596 › [MessageQueue] Draining Message Queue with:  0
+21:13:28.916 › [MessageQueue] Finished draining message from queue LogId:7236 QueueLength: 0
+21:15:01.119 › [MessageQueue] Queueing message to be sent LogId:585
+21:15:01.119 › [MessageQueue] Draining message from queue LogId:585 QueueLength: 0
+21:15:01.119 › [MessageQueue] Draining Message Queue with:  0
+21:15:01.458 › [MessageQueue] Finished draining message from queue LogId:585 QueueLength: 0
+21:15:04.017 › [MessageQueue] Queueing message to be sent LogId:3770
+21:15:04.017 › [MessageQueue] Draining message from queue LogId:3770 QueueLength: 0
+21:15:04.017 › [MessageQueue] Draining Message Queue with:  0
+21:15:04.501 › [MessageQueue] Finished draining message from queue LogId:3770 QueueLength: 0
+21:15:07.041 › [MessageQueue] Queueing message to be sent LogId:7903
+21:15:07.041 › [MessageQueue] Draining message from queue LogId:7903 QueueLength: 0
+21:15:07.041 › [MessageQueue] Draining Message Queue with:  0
+21:15:07.445 › [MessageQueue] Finished draining message from queue LogId:7903 QueueLength: 0
+21:15:13.959 › [MessageQueue] Queueing message to be sent LogId:181
+21:15:13.959 › [MessageQueue] Draining message from queue LogId:181 QueueLength: 0
+21:15:13.959 › [MessageQueue] Draining Message Queue with:  0
+21:15:14.193 › [MessageQueue] Finished draining message from queue LogId:181 QueueLength: 0
+21:15:23.529 › [MessageQueue] Queueing message to be sent LogId:4327
+21:15:23.529 › [MessageQueue] Draining message from queue LogId:4327 QueueLength: 0
+21:15:23.529 › [MessageQueue] Draining Message Queue with:  0
+21:15:23.884 › [MessageQueue] Finished draining message from queue LogId:4327 QueueLength: 0
+21:15:58.761 › [MessageQueue] Queueing message to be sent LogId:4133
+21:15:58.761 › [MessageQueue] Draining message from queue LogId:4133 QueueLength: 0
+21:15:58.761 › [MessageQueue] Draining Message Queue with:  0
+21:15:59.821 › [MessageQueue] Finished draining message from queue LogId:4133 QueueLength: 0
+21:16:05.959 › [MessageQueue] Queueing message to be sent LogId:4661
+21:16:05.960 › [MessageQueue] Draining message from queue LogId:4661 QueueLength: 0
+21:16:05.960 › [MessageQueue] Draining Message Queue with:  0
+21:16:06.373 › [MessageQueue] Finished draining message from queue LogId:4661 QueueLength: 0
+21:16:33.410 › [MessageQueue] Queueing message to be sent LogId:2861
+21:16:33.411 › [MessageQueue] Draining message from queue LogId:2861 QueueLength: 0
+21:16:33.411 › [MessageQueue] Draining Message Queue with:  0
+21:16:33.755 › [MessageQueue] Finished draining message from queue LogId:2861 QueueLength: 0
+21:16:36.817 › [MessageQueue] Queueing message to be sent LogId:192
+21:16:36.818 › [MessageQueue] Draining message from queue LogId:192 QueueLength: 0
+21:16:36.818 › [MessageQueue] Draining Message Queue with:  0
+21:16:37.169 › [MessageQueue] Finished draining message from queue LogId:192 QueueLength: 0
+21:16:41.131 › [MessageQueue] Queueing message to be sent LogId:7937
+21:16:41.132 › [MessageQueue] Draining message from queue LogId:7937 QueueLength: 0
+21:16:41.132 › [MessageQueue] Draining Message Queue with:  0
+21:16:41.485 › [MessageQueue] Finished draining message from queue LogId:7937 QueueLength: 0
+21:16:42.695 › [MessageQueue] Queueing message to be sent LogId:3987
+21:16:42.695 › [MessageQueue] Draining message from queue LogId:3987 QueueLength: 0
+21:16:42.695 › [MessageQueue] Draining Message Queue with:  0
+21:16:43.041 › [MessageQueue] Finished draining message from queue LogId:3987 QueueLength: 0
+21:17:04.889 › [MessageQueue] Queueing message to be sent LogId:3282
+21:17:04.889 › [MessageQueue] Draining message from queue LogId:3282 QueueLength: 0
+21:17:04.889 › [MessageQueue] Draining Message Queue with:  0
+21:17:05.192 › [MessageQueue] Finished draining message from queue LogId:3282 QueueLength: 0
+21:18:40.799 › [MessageQueue] Queueing message to be sent LogId:4539
+21:18:40.806 › [MessageQueue] Draining message from queue LogId:4539 QueueLength: 0
+21:18:40.806 › [MessageQueue] Draining Message Queue with:  0
+21:18:41.186 › [MessageQueue] Finished draining message from queue LogId:4539 QueueLength: 0
+21:19:27.678 › [MessageQueue] Queueing message to be sent LogId:1855
+21:19:27.678 › [MessageQueue] Draining message from queue LogId:1855 QueueLength: 0
+21:19:27.679 › [MessageQueue] Draining Message Queue with:  0
+21:19:28.121 › [MessageQueue] Finished draining message from queue LogId:1855 QueueLength: 0
+21:19:32.708 › [MessageQueue] Queueing message to be sent LogId:1313
+21:19:32.709 › [MessageQueue] Draining message from queue LogId:1313 QueueLength: 0
+21:19:32.709 › [MessageQueue] Draining Message Queue with:  0
+21:19:33.074 › [MessageQueue] Finished draining message from queue LogId:1313 QueueLength: 0
+21:19:50.963 › [MessageQueue] Queueing message to be sent LogId:748
+21:19:50.963 › [MessageQueue] Draining message from queue LogId:748 QueueLength: 0
+21:19:50.963 › [MessageQueue] Draining Message Queue with:  0
+21:19:51.401 › [MessageQueue] Finished draining message from queue LogId:748 QueueLength: 0
+21:20:12.603 › [MessageQueue] Queueing message to be sent LogId:9278
+21:20:12.603 › [MessageQueue] Draining message from queue LogId:9278 QueueLength: 0
+21:20:12.603 › [MessageQueue] Draining Message Queue with:  0
+21:20:12.915 › [MessageQueue] Finished draining message from queue LogId:9278 QueueLength: 0
+21:30:25.077 › [MessageQueue] Queueing message to be sent LogId:4633
+21:30:25.077 › [MessageQueue] Draining message from queue LogId:4633 QueueLength: 0
+21:30:25.077 › [MessageQueue] Draining Message Queue with:  0
+21:30:25.388 › [MessageQueue] Finished draining message from queue LogId:4633 QueueLength: 0
+21:32:00.209 › [MessageQueue] Queueing message to be sent LogId:7608
+21:32:00.210 › [MessageQueue] Draining message from queue LogId:7608 QueueLength: 0
+21:32:00.210 › [MessageQueue] Draining Message Queue with:  0
+21:32:00.852 › [MessageQueue] Finished draining message from queue LogId:7608 QueueLength: 0
+21:33:05.288 › [MessageQueue] Queueing message to be sent LogId:748
+21:33:05.288 › [MessageQueue] Draining message from queue LogId:748 QueueLength: 0
+21:33:05.288 › [MessageQueue] Draining Message Queue with:  0
+21:33:05.776 › [MessageQueue] Finished draining message from queue LogId:748 QueueLength: 0
+21:33:36.576 › [MessageQueue] Queueing message to be sent LogId:5035
+21:33:36.577 › [MessageQueue] Draining message from queue LogId:5035 QueueLength: 0
+21:33:36.577 › [MessageQueue] Draining Message Queue with:  0
+21:33:36.894 › [MessageQueue] Finished draining message from queue LogId:5035 QueueLength: 0
+21:33:45.414 › [MessageQueue] Queueing message to be sent LogId:8927
+21:33:45.415 › [MessageQueue] Draining message from queue LogId:8927 QueueLength: 0
+21:33:45.415 › [MessageQueue] Draining Message Queue with:  0
+21:33:45.709 › [MessageQueue] Finished draining message from queue LogId:8927 QueueLength: 0
+21:33:58.601 › [MessageQueue] Queueing message to be sent LogId:890
+21:33:58.602 › [MessageQueue] Draining message from queue LogId:890 QueueLength: 0
+21:33:58.602 › [MessageQueue] Draining Message Queue with:  0
+21:33:58.921 › [MessageQueue] Finished draining message from queue LogId:890 QueueLength: 0
+21:34:57.408 › [MessageQueue] Queueing message to be sent LogId:1092
+21:34:57.408 › [MessageQueue] Draining message from queue LogId:1092 QueueLength: 0
+21:34:57.408 › [MessageQueue] Draining Message Queue with:  0
+21:34:57.826 › [MessageQueue] Finished draining message from queue LogId:1092 QueueLength: 0
+21:35:21.781 › [MessageQueue] Queueing message to be sent LogId:8161
+21:35:21.781 › [MessageQueue] Draining message from queue LogId:8161 QueueLength: 0
+21:35:21.782 › [MessageQueue] Draining Message Queue with:  0
+21:35:21.956 › [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+21:35:21.957 › [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+21:35:22.104 › [MessageQueue] Finished draining message from queue LogId:8161 QueueLength: 0
+21:35:41.795 › [MessageQueue] Queueing message to be sent LogId:5162
+21:35:41.795 › [MessageQueue] Draining message from queue LogId:5162 QueueLength: 0
+21:35:41.795 › [MessageQueue] Draining Message Queue with:  0
+21:35:42.069 › [MessageQueue] Finished draining message from queue LogId:5162 QueueLength: 0
+21:36:05.565 › [MessageQueue] Queueing message to be sent LogId:4079
+21:36:05.566 › [MessageQueue] Draining message from queue LogId:4079 QueueLength: 0
+21:36:05.566 › [MessageQueue] Draining Message Queue with:  0
+21:36:06.004 › [MessageQueue] Finished draining message from queue LogId:4079 QueueLength: 0
+21:36:34.868 › [MessageQueue] Queueing message to be sent LogId:7437
+21:36:34.868 › [MessageQueue] Draining message from queue LogId:7437 QueueLength: 0
+21:36:34.868 › [MessageQueue] Draining Message Queue with:  0
+21:36:35.304 › [MessageQueue] Finished draining message from queue LogId:7437 QueueLength: 0
+21:37:00.734 › [MessageQueue] Queueing message to be sent LogId:6122
+21:37:00.735 › [MessageQueue] Draining message from queue LogId:6122 QueueLength: 0
+21:37:00.735 › [MessageQueue] Draining Message Queue with:  0
+21:37:01.070 › [MessageQueue] Finished draining message from queue LogId:6122 QueueLength: 0
+21:37:49.603 › [MessageQueue] Queueing message to be sent LogId:2166
+21:37:49.603 › [MessageQueue] Draining message from queue LogId:2166 QueueLength: 0
+21:37:49.604 › [MessageQueue] Draining Message Queue with:  0
+21:37:49.943 › [MessageQueue] Finished draining message from queue LogId:2166 QueueLength: 0
+21:38:07.277 › [MessageQueue] Queueing message to be sent LogId:4622
+21:38:07.277 › [MessageQueue] Draining message from queue LogId:4622 QueueLength: 0
+21:38:07.277 › [MessageQueue] Draining Message Queue with:  0
+21:38:07.677 › [MessageQueue] Finished draining message from queue LogId:4622 QueueLength: 0
+21:38:43.960 › [MessageQueue] Queueing message to be sent LogId:1919
+21:38:43.960 › [MessageQueue] Draining message from queue LogId:1919 QueueLength: 0
+21:38:43.960 › [MessageQueue] Draining Message Queue with:  0
+21:38:44.434 › [MessageQueue] Finished draining message from queue LogId:1919 QueueLength: 0
+21:38:57.029 › [MessageQueue] Queueing message to be sent LogId:2595
+21:38:57.030 › [MessageQueue] Draining message from queue LogId:2595 QueueLength: 0
+21:38:57.030 › [MessageQueue] Draining Message Queue with:  0
+21:38:57.368 › [MessageQueue] Finished draining message from queue LogId:2595 QueueLength: 0
+21:39:11.065 › [Routing/Utils] transitionTo - Transitioning to /channels/1213140531341697044/1213140532050788444
+21:39:27.731 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+21:39:54.018 › [MessageQueue] Queueing message to be sent LogId:5474
+21:39:54.018 › [MessageQueue] Draining message from queue LogId:5474 QueueLength: 0
+21:39:54.018 › [MessageQueue] Draining Message Queue with:  0
+21:39:54.563 › [MessageQueue] Finished draining message from queue LogId:5474 QueueLength: 0
+21:40:25.342 › [MessageQueue] Queueing message to be sent LogId:4469
+21:40:25.343 › [MessageQueue] Draining message from queue LogId:4469 QueueLength: 0
+21:40:25.343 › [MessageQueue] Draining Message Queue with:  0
+21:40:25.721 › [MessageQueue] Finished draining message from queue LogId:4469 QueueLength: 0
+21:40:37.800 › [MessageQueue] Queueing message to be sent LogId:7077
+21:40:37.800 › [MessageQueue] Draining message from queue LogId:7077 QueueLength: 0
+21:40:37.800 › [MessageQueue] Draining Message Queue with:  0
+21:40:38.348 › [MessageQueue] Finished draining message from queue LogId:7077 QueueLength: 0
+21:40:43.327 › [MessageQueue] Queueing message to be sent LogId:2063
+21:40:43.327 › [MessageQueue] Draining message from queue LogId:2063 QueueLength: 0
+21:40:43.327 › [MessageQueue] Draining Message Queue with:  0
+21:40:43.746 › [MessageQueue] Finished draining message from queue LogId:2063 QueueLength: 0
+21:40:50.290 › [MessageQueue] Queueing message to be sent LogId:5544
+21:40:50.291 › [MessageQueue] Draining message from queue LogId:5544 QueueLength: 0
+21:40:50.291 › [MessageQueue] Draining Message Queue with:  0
+21:40:50.667 › [MessageQueue] Finished draining message from queue LogId:5544 QueueLength: 0
+21:40:56.051 › [MessageQueue] Queueing message to be sent LogId:4442
+21:40:56.052 › [MessageQueue] Draining message from queue LogId:4442 QueueLength: 0
+21:40:56.052 › [MessageQueue] Draining Message Queue with:  0
+21:40:56.751 › [MessageQueue] Finished draining message from queue LogId:4442 QueueLength: 0
+21:41:03.676 › [MessageQueue] Queueing message to be sent LogId:3621
+21:41:03.677 › [MessageQueue] Draining message from queue LogId:3621 QueueLength: 0
+21:41:03.677 › [MessageQueue] Draining Message Queue with:  0
+21:41:04.066 › [MessageQueue] Finished draining message from queue LogId:3621 QueueLength: 0
+21:41:07.188 › [MessageQueue] Queueing message to be sent LogId:5368
+21:41:07.188 › [MessageQueue] Draining message from queue LogId:5368 QueueLength: 0
+21:41:07.188 › [MessageQueue] Draining Message Queue with:  0
+21:41:08.070 › [MessageQueue] Finished draining message from queue LogId:5368 QueueLength: 0
+21:41:40.735 › [MessageQueue] Queueing message to be sent LogId:3472
+21:41:40.736 › [MessageQueue] Draining message from queue LogId:3472 QueueLength: 0
+21:41:40.736 › [MessageQueue] Draining Message Queue with:  0
+21:41:41.030 › [MessageQueue] Finished draining message from queue LogId:3472 QueueLength: 0
+21:41:56.947 › [MessageQueue] Queueing message to be sent LogId:4723
+21:41:56.947 › [MessageQueue] Draining message from queue LogId:4723 QueueLength: 0
+21:41:56.947 › [MessageQueue] Draining Message Queue with:  0
+21:41:57.424 › [MessageQueue] Finished draining message from queue LogId:4723 QueueLength: 0
+21:42:22.930 › [MessageQueue] Queueing message to be sent LogId:3908
+21:42:22.930 › [MessageQueue] Draining message from queue LogId:3908 QueueLength: 0
+21:42:22.931 › [MessageQueue] Draining Message Queue with:  0
+21:42:23.349 › [MessageQueue] Finished draining message from queue LogId:3908 QueueLength: 0
+21:42:50.660 › [MessageQueue] Queueing message to be sent LogId:8034
+21:42:50.661 › [MessageQueue] Draining message from queue LogId:8034 QueueLength: 0
+21:42:50.662 › [MessageQueue] Draining Message Queue with:  0
+21:42:51.083 › [MessageQueue] Finished draining message from queue LogId:8034 QueueLength: 0
+21:42:53.818 › [MessageQueue] Queueing message to be sent LogId:5143
+21:42:53.819 › [MessageQueue] Draining message from queue LogId:5143 QueueLength: 0
+21:42:53.819 › [MessageQueue] Draining Message Queue with:  0
+21:42:54.310 › [MessageQueue] Finished draining message from queue LogId:5143 QueueLength: 0
+21:42:54.626 › [MessageQueue] Queueing message to be sent LogId:5450
+21:42:54.626 › [MessageQueue] Draining message from queue LogId:5450 QueueLength: 0
+21:42:54.627 › [MessageQueue] Draining Message Queue with:  0
+21:42:54.955 › [MessageQueue] Finished draining message from queue LogId:5450 QueueLength: 0
+21:43:19.083 › [MessageQueue] Queueing message to be sent LogId:5536
+21:43:19.083 › [MessageQueue] Draining message from queue LogId:5536 QueueLength: 0
+21:43:19.083 › [MessageQueue] Draining Message Queue with:  0
+21:43:19.421 › [MessageQueue] Finished draining message from queue LogId:5536 QueueLength: 0
+21:43:25.582 › [MessageQueue] Queueing message to be sent LogId:7303
+21:43:25.582 › [MessageQueue] Draining message from queue LogId:7303 QueueLength: 0
+21:43:25.582 › [MessageQueue] Draining Message Queue with:  0
+21:43:25.870 › [MessageQueue] Finished draining message from queue LogId:7303 QueueLength: 0
+21:43:29.436 › [MessageQueue] Queueing message to be sent LogId:8846
+21:43:29.436 › [MessageQueue] Draining message from queue LogId:8846 QueueLength: 0
+21:43:29.436 › [MessageQueue] Draining Message Queue with:  0
+21:43:29.730 › [MessageQueue] Finished draining message from queue LogId:8846 QueueLength: 0
+21:43:57.909 › [MessageQueue] Queueing message to be sent LogId:2321
+21:43:57.909 › [MessageQueue] Draining message from queue LogId:2321 QueueLength: 0
+21:43:57.909 › [MessageQueue] Draining Message Queue with:  0
+21:43:58.453 › [MessageQueue] Finished draining message from queue LogId:2321 QueueLength: 0
+21:44:04.331 › [MessageQueue] Queueing message to be sent LogId:6035
+21:44:04.331 › [MessageQueue] Draining message from queue LogId:6035 QueueLength: 0
+21:44:04.331 › [MessageQueue] Draining Message Queue with:  0
+21:44:04.729 › [MessageQueue] Finished draining message from queue LogId:6035 QueueLength: 0
+21:44:14.002 › [MessageQueue] Queueing message to be sent LogId:7035
+21:44:14.002 › [MessageQueue] Draining message from queue LogId:7035 QueueLength: 0
+21:44:14.002 › [MessageQueue] Draining Message Queue with:  0
+21:44:14.478 › [MessageQueue] Finished draining message from queue LogId:7035 QueueLength: 0
+21:44:21.492 › [MessageQueue] Queueing message to be sent LogId:3295
+21:44:21.492 › [MessageQueue] Draining message from queue LogId:3295 QueueLength: 0
+21:44:21.492 › [MessageQueue] Draining Message Queue with:  0
+21:44:22.110 › [MessageQueue] Finished draining message from queue LogId:3295 QueueLength: 0
+21:44:25.327 › [MessageQueue] Queueing message to be sent LogId:2806
+21:44:25.328 › [MessageQueue] Draining message from queue LogId:2806 QueueLength: 0
+21:44:25.328 › [MessageQueue] Draining Message Queue with:  0
+21:44:25.663 › [MessageQueue] Finished draining message from queue LogId:2806 QueueLength: 0
+21:44:31.880 › [MessageQueue] Queueing message to be sent LogId:5926
+21:44:31.880 › [MessageQueue] Draining message from queue LogId:5926 QueueLength: 0
+21:44:31.880 › [MessageQueue] Draining Message Queue with:  0
+21:44:32.232 › [MessageQueue] Finished draining message from queue LogId:5926 QueueLength: 0
+21:44:41.686 › [MessageQueue] Queueing message to be sent LogId:1699
+21:44:41.687 › [MessageQueue] Draining message from queue LogId:1699 QueueLength: 0
+21:44:41.687 › [MessageQueue] Draining Message Queue with:  0
+21:44:42.325 › [MessageQueue] Finished draining message from queue LogId:1699 QueueLength: 0
+21:45:04.315 › [MessageQueue] Queueing message to be sent LogId:9278
+21:45:04.322 › [MessageQueue] Draining message from queue LogId:9278 QueueLength: 0
+21:45:04.323 › [MessageQueue] Draining Message Queue with:  0
+21:45:04.846 › [MessageQueue] Finished draining message from queue LogId:9278 QueueLength: 0
+21:45:05.407 › [MessageQueue] Queueing message to be sent LogId:5713
+21:45:05.408 › [MessageQueue] Draining message from queue LogId:5713 QueueLength: 0
+21:45:05.408 › [MessageQueue] Draining Message Queue with:  0
+21:45:05.686 › [MessageQueue] Finished draining message from queue LogId:5713 QueueLength: 0
+21:45:08.255 › [MessageQueue] Queueing message to be sent LogId:5791
+21:45:08.255 › [MessageQueue] Draining message from queue LogId:5791 QueueLength: 0
+21:45:08.255 › [MessageQueue] Draining Message Queue with:  0
+21:45:08.589 › [MessageQueue] Finished draining message from queue LogId:5791 QueueLength: 0
+21:45:24.335 › [MessageQueue] Queueing message to be sent LogId:5658
+21:45:24.335 › [MessageQueue] Draining message from queue LogId:5658 QueueLength: 0
+21:45:24.335 › [MessageQueue] Draining Message Queue with:  0
+21:45:24.823 › [MessageQueue] Finished draining message from queue LogId:5658 QueueLength: 0
+21:45:39.938 › [MessageQueue] Queueing message to be sent LogId:559
+21:45:39.939 › [MessageQueue] Draining message from queue LogId:559 QueueLength: 0
+21:45:39.939 › [MessageQueue] Draining Message Queue with:  0
+21:45:40.263 › [MessageQueue] Finished draining message from queue LogId:559 QueueLength: 0
+21:46:39.158 › [MessageQueue] Queueing message to be sent LogId:9150
+21:46:39.159 › [MessageQueue] Draining message from queue LogId:9150 QueueLength: 0
+21:46:39.159 › [MessageQueue] Draining Message Queue with:  0
+21:46:39.597 › [MessageQueue] Finished draining message from queue LogId:9150 QueueLength: 0
+21:46:50.896 › [MessageQueue] Queueing message to be sent LogId:2141
+21:46:50.897 › [MessageQueue] Draining message from queue LogId:2141 QueueLength: 0
+21:46:50.897 › [MessageQueue] Draining Message Queue with:  0
+21:46:51.203 › [MessageQueue] Finished draining message from queue LogId:2141 QueueLength: 0
+21:47:19.944 › [MessageQueue] Queueing message to be sent LogId:6022
+21:47:19.945 › [MessageQueue] Draining message from queue LogId:6022 QueueLength: 0
+21:47:19.945 › [MessageQueue] Draining Message Queue with:  0
+21:47:20.417 › [MessageQueue] Finished draining message from queue LogId:6022 QueueLength: 0
+21:47:37.392 › [MessageQueue] Queueing message to be sent LogId:5248
+21:47:37.392 › [MessageQueue] Draining message from queue LogId:5248 QueueLength: 0
+21:47:37.392 › [MessageQueue] Draining Message Queue with:  0
+21:47:37.735 › [MessageQueue] Finished draining message from queue LogId:5248 QueueLength: 0
+21:47:54.266 › [MessageQueue] Queueing message to be sent LogId:9508
+21:47:54.266 › [MessageQueue] Draining message from queue LogId:9508 QueueLength: 0
+21:47:54.267 › [MessageQueue] Draining Message Queue with:  0
+21:47:54.573 › [MessageQueue] Finished draining message from queue LogId:9508 QueueLength: 0
+21:48:13.798 › [MessageQueue] Queueing message to be sent LogId:9899
+21:48:13.798 › [MessageQueue] Draining message from queue LogId:9899 QueueLength: 0
+21:48:13.798 › [MessageQueue] Draining Message Queue with:  0
+21:48:14.143 › [MessageQueue] Finished draining message from queue LogId:9899 QueueLength: 0
+21:48:14.694 › [MessageQueue] Queueing message to be sent LogId:2595
+21:48:14.694 › [MessageQueue] Draining message from queue LogId:2595 QueueLength: 0
+21:48:14.694 › [MessageQueue] Draining Message Queue with:  0
+21:48:15.078 › [MessageQueue] Finished draining message from queue LogId:2595 QueueLength: 0
+21:48:54.906 › [MessageQueue] Queueing message to be sent LogId:923
+21:48:54.907 › [MessageQueue] Draining message from queue LogId:923 QueueLength: 0
+21:48:54.907 › [MessageQueue] Draining Message Queue with:  0
+21:48:55.312 › [MessageQueue] Finished draining message from queue LogId:923 QueueLength: 0
+21:48:56.998 › [MessageQueue] Queueing message to be sent LogId:7123
+21:48:56.999 › [MessageQueue] Draining message from queue LogId:7123 QueueLength: 0
+21:48:56.999 › [MessageQueue] Draining Message Queue with:  0
+21:48:57.456 › [MessageQueue] Finished draining message from queue LogId:7123 QueueLength: 0
+21:49:25.502 › [MessageQueue] Queueing message to be sent LogId:8826
+21:49:25.503 › [MessageQueue] Draining message from queue LogId:8826 QueueLength: 0
+21:49:25.503 › [MessageQueue] Draining Message Queue with:  0
+21:49:25.775 › [MessageQueue] Finished draining message from queue LogId:8826 QueueLength: 0
+21:50:08.930 › [MessageQueue] Queueing message to be sent LogId:616
+21:50:08.930 › [MessageQueue] Draining message from queue LogId:616 QueueLength: 0
+21:50:08.930 › [MessageQueue] Draining Message Queue with:  0
+21:50:09.177 › [MessageQueue] Finished draining message from queue LogId:616 QueueLength: 0
+21:50:27.170 › [MessageQueue] Queueing message to be sent LogId:3564
+21:50:27.171 › [MessageQueue] Draining message from queue LogId:3564 QueueLength: 0
+21:50:27.171 › [MessageQueue] Draining Message Queue with:  0
+21:50:27.816 › [MessageQueue] Finished draining message from queue LogId:3564 QueueLength: 0
+21:50:27.860 › [MessageQueue] Queueing message to be sent LogId:6082
+21:50:27.860 › [MessageQueue] Draining message from queue LogId:6082 QueueLength: 0
+21:50:27.861 › [MessageQueue] Draining Message Queue with:  0
+21:50:28.302 › [MessageQueue] Finished draining message from queue LogId:6082 QueueLength: 0
+21:50:29.273 › [MessageQueue] Queueing message to be sent LogId:5606
+21:50:29.274 › [MessageQueue] Draining message from queue LogId:5606 QueueLength: 0
+21:50:29.274 › [MessageQueue] Draining Message Queue with:  0
+21:50:29.874 › [MessageQueue] Finished draining message from queue LogId:5606 QueueLength: 0
+21:50:41.468 › [MessageQueue] Queueing message to be sent LogId:4053
+21:50:41.468 › [MessageQueue] Draining message from queue LogId:4053 QueueLength: 0
+21:50:41.469 › [MessageQueue] Draining Message Queue with:  0
+21:50:41.849 › [MessageQueue] Finished draining message from queue LogId:4053 QueueLength: 0
+21:50:42.786 › [MessageQueue] Queueing message to be sent LogId:8221
+21:50:42.787 › [MessageQueue] Draining message from queue LogId:8221 QueueLength: 0
+21:50:42.787 › [MessageQueue] Draining Message Queue with:  0
+21:50:43.174 › [MessageQueue] Finished draining message from queue LogId:8221 QueueLength: 0
+21:51:44.350 › [MessageQueue] Queueing message to be sent LogId:627
+21:51:44.351 › [MessageQueue] Draining message from queue LogId:627 QueueLength: 0
+21:51:44.351 › [MessageQueue] Draining Message Queue with:  0
+21:51:44.628 › [MessageQueue] Finished draining message from queue LogId:627 QueueLength: 0
+21:51:55.059 › [MessageQueue] Queueing message to be sent LogId:8985
+21:51:55.060 › [MessageQueue] Draining message from queue LogId:8985 QueueLength: 0
+21:51:55.060 › [MessageQueue] Draining Message Queue with:  0
+21:51:55.352 › [MessageQueue] Finished draining message from queue LogId:8985 QueueLength: 0
+21:54:02.842 › [MessageQueue] Queueing message to be sent LogId:8833
+21:54:02.842 › [MessageQueue] Draining message from queue LogId:8833 QueueLength: 0
+21:54:02.842 › [MessageQueue] Draining Message Queue with:  0
+21:54:03.347 › [MessageQueue] Finished draining message from queue LogId:8833 QueueLength: 0
+21:55:04.211 › [MessageQueue] Queueing message to be sent LogId:6863
+21:55:04.211 › [MessageQueue] Draining message from queue LogId:6863 QueueLength: 0
+21:55:04.211 › [MessageQueue] Draining Message Queue with:  0
+21:55:04.670 › [MessageQueue] Finished draining message from queue LogId:6863 QueueLength: 0
+21:55:23.822 › [MessageQueue] Queueing message to be sent LogId:1621
+21:55:23.822 › [MessageQueue] Draining message from queue LogId:1621 QueueLength: 0
+21:55:23.823 › [MessageQueue] Draining Message Queue with:  0
+21:55:24.166 › [MessageQueue] Finished draining message from queue LogId:1621 QueueLength: 0
+21:56:10.215 › [MessageQueue] Queueing message to be sent LogId:7560
+21:56:10.215 › [MessageQueue] Draining message from queue LogId:7560 QueueLength: 0
+21:56:10.215 › [MessageQueue] Draining Message Queue with:  0
+21:56:10.716 › [MessageQueue] Finished draining message from queue LogId:7560 QueueLength: 0
+21:56:43.668 › [MessageQueue] Queueing message to be sent LogId:9450
+21:56:43.668 › [MessageQueue] Draining message from queue LogId:9450 QueueLength: 0
+21:56:43.668 › [MessageQueue] Draining Message Queue with:  0
+21:56:44.086 › [MessageQueue] Finished draining message from queue LogId:9450 QueueLength: 0
+21:56:58.947 › [MessageQueue] Queueing message to be sent LogId:2212
+21:56:58.947 › [MessageQueue] Draining message from queue LogId:2212 QueueLength: 0
+21:56:58.948 › [MessageQueue] Draining Message Queue with:  0
+21:56:59.463 › [MessageQueue] Finished draining message from queue LogId:2212 QueueLength: 0
+21:57:16.861 › [MessageQueue] Queueing message to be sent LogId:9408
+21:57:16.861 › [MessageQueue] Draining message from queue LogId:9408 QueueLength: 0
+21:57:16.861 › [MessageQueue] Draining Message Queue with:  0
+21:57:17.592 › [MessageQueue] Finished draining message from queue LogId:9408 QueueLength: 0
+21:57:20.289 › [MessageQueue] Queueing message to be sent LogId:4041
+21:57:20.290 › [MessageQueue] Draining message from queue LogId:4041 QueueLength: 0
+21:57:20.290 › [MessageQueue] Draining Message Queue with:  0
+21:57:20.714 › [MessageQueue] Finished draining message from queue LogId:4041 QueueLength: 0
+21:57:41.807 › [MessageQueue] Queueing message to be sent LogId:5128
+21:57:41.807 › [MessageQueue] Draining message from queue LogId:5128 QueueLength: 0
+21:57:41.808 › [MessageQueue] Draining Message Queue with:  0
+21:57:42.099 › [MessageQueue] Finished draining message from queue LogId:5128 QueueLength: 0
+21:57:52.292 › [MessageQueue] Queueing message to be sent LogId:3627
+21:57:52.293 › [MessageQueue] Draining message from queue LogId:3627 QueueLength: 0
+21:57:52.293 › [MessageQueue] Draining Message Queue with:  0
+21:57:52.705 › [MessageQueue] Finished draining message from queue LogId:3627 QueueLength: 0
+21:57:56.530 › [MessageQueue] Queueing message to be sent LogId:8987
+21:57:56.530 › [MessageQueue] Draining message from queue LogId:8987 QueueLength: 0
+21:57:56.531 › [MessageQueue] Draining Message Queue with:  0
+21:57:56.941 › [MessageQueue] Finished draining message from queue LogId:8987 QueueLength: 0
+21:58:14.662 › [MessageQueue] Queueing message to be sent LogId:1793
+21:58:14.662 › [MessageQueue] Draining message from queue LogId:1793 QueueLength: 0
+21:58:14.662 › [MessageQueue] Draining Message Queue with:  0
+21:58:14.926 › [MessageQueue] Finished draining message from queue LogId:1793 QueueLength: 0
+21:58:49.166 › [MessageQueue] Queueing message to be sent LogId:649
+21:58:49.166 › [MessageQueue] Draining message from queue LogId:649 QueueLength: 0
+21:58:49.166 › [MessageQueue] Draining Message Queue with:  0
+21:58:49.554 › [MessageQueue] Finished draining message from queue LogId:649 QueueLength: 0
+21:58:55.978 › [MessageQueue] Queueing message to be sent LogId:588
+21:58:55.978 › [MessageQueue] Draining message from queue LogId:588 QueueLength: 0
+21:58:55.978 › [MessageQueue] Draining Message Queue with:  0
+21:58:56.507 › [MessageQueue] Finished draining message from queue LogId:588 QueueLength: 0
+21:59:01.196 › [MessageQueue] Queueing message to be sent LogId:4338
+21:59:01.196 › [MessageQueue] Draining message from queue LogId:4338 QueueLength: 0
+21:59:01.196 › [MessageQueue] Draining Message Queue with:  0
+21:59:02.040 › [MessageQueue] Finished draining message from queue LogId:4338 QueueLength: 0
+21:59:14.794 › [MessageQueue] Queueing message to be sent LogId:331
+21:59:14.794 › [MessageQueue] Draining message from queue LogId:331 QueueLength: 0
+21:59:14.795 › [MessageQueue] Draining Message Queue with:  0
+21:59:15.091 › [MessageQueue] Finished draining message from queue LogId:331 QueueLength: 0
+21:59:29.178 › [MessageQueue] Queueing message to be sent LogId:9224
+21:59:29.179 › [MessageQueue] Draining message from queue LogId:9224 QueueLength: 0
+21:59:29.179 › [MessageQueue] Draining Message Queue with:  0
+21:59:29.591 › [MessageQueue] Finished draining message from queue LogId:9224 QueueLength: 0
+21:59:33.849 › [MessageQueue] Queueing message to be sent LogId:5806
+21:59:33.849 › [MessageQueue] Draining message from queue LogId:5806 QueueLength: 0
+21:59:33.849 › [MessageQueue] Draining Message Queue with:  0
+21:59:34.426 › [MessageQueue] Finished draining message from queue LogId:5806 QueueLength: 0
+21:59:44.593 › [MessageQueue] Queueing message to be sent LogId:7610
+21:59:44.594 › [MessageQueue] Draining message from queue LogId:7610 QueueLength: 0
+21:59:44.594 › [MessageQueue] Draining Message Queue with:  0
+21:59:45.041 › [MessageQueue] Finished draining message from queue LogId:7610 QueueLength: 0
+21:59:53.655 › [MessageQueue] Queueing message to be sent LogId:475
+21:59:53.655 › [MessageQueue] Draining message from queue LogId:475 QueueLength: 0
+21:59:53.655 › [MessageQueue] Draining Message Queue with:  0
+21:59:53.948 › [MessageQueue] Finished draining message from queue LogId:475 QueueLength: 0
+22:00:42.352 › [MessageQueue] Queueing message to be sent LogId:1567
+22:00:42.352 › [MessageQueue] Draining message from queue LogId:1567 QueueLength: 0
+22:00:42.353 › [MessageQueue] Draining Message Queue with:  0
+22:00:42.673 › [MessageQueue] Finished draining message from queue LogId:1567 QueueLength: 0
+22:00:45.274 › [MessageActionCreators] Fetching messages for 1434797241700454471 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+22:00:45.488 › [MessageActionCreators] Fetched 10 messages for 1434797241700454471 isBefore:false isAfter:false
+22:00:45.489 › [ChannelMessages] loadComplete: resetting state for channelId=1434797241700454471, sending.length=0
+22:00:50.314 › [MessageQueue] Queueing message to be sent LogId:9918
+22:00:50.315 › [MessageQueue] Draining message from queue LogId:9918 QueueLength: 0
+22:00:50.315 › [MessageQueue] Draining Message Queue with:  0
+22:00:50.683 › [MessageQueue] Finished draining message from queue LogId:9918 QueueLength: 0
+22:00:51.922 › [MessageQueue] Queueing message to be sent LogId:710
+22:00:51.923 › [MessageQueue] Draining message from queue LogId:710 QueueLength: 0
+22:00:51.923 › [MessageQueue] Draining Message Queue with:  0
+22:00:52.347 › [MessageQueue] Finished draining message from queue LogId:710 QueueLength: 0
+22:00:55.069 › [MessageQueue] Queueing message to be sent LogId:1002
+22:00:55.070 › [MessageQueue] Draining message from queue LogId:1002 QueueLength: 0
+22:00:55.071 › [MessageQueue] Draining Message Queue with:  0
+22:00:55.495 › [MessageQueue] Finished draining message from queue LogId:1002 QueueLength: 0
+22:01:02.889 › [MessageQueue] Queueing message to be sent LogId:4745
+22:01:02.889 › [MessageQueue] Draining message from queue LogId:4745 QueueLength: 0
+22:01:02.889 › [MessageQueue] Draining Message Queue with:  0
+22:01:03.175 › [MessageQueue] Finished draining message from queue LogId:4745 QueueLength: 0
+22:01:05.358 › [MessageQueue] Queueing message to be sent LogId:571
+22:01:05.359 › [MessageQueue] Draining message from queue LogId:571 QueueLength: 0
+22:01:05.359 › [MessageQueue] Draining Message Queue with:  0
+22:01:05.729 › [MessageQueue] Finished draining message from queue LogId:571 QueueLength: 0
+22:01:10.105 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+22:01:49.490 › [MessageQueue] Queueing message to be sent LogId:306
+22:01:49.491 › [MessageQueue] Draining message from queue LogId:306 QueueLength: 0
+22:01:49.491 › [MessageQueue] Draining Message Queue with:  0
+22:01:49.770 › [MessageQueue] Finished draining message from queue LogId:306 QueueLength: 0
+22:02:09.599 › [MessageQueue] Queueing message to be sent LogId:7367
+22:02:09.600 › [MessageQueue] Draining message from queue LogId:7367 QueueLength: 0
+22:02:09.601 › [MessageQueue] Draining Message Queue with:  0
+22:02:09.913 › [MessageQueue] Finished draining message from queue LogId:7367 QueueLength: 0
+22:02:22.826 › [GatewaySocket] [RECONNECT] gateway requested I reconnect.
+22:02:22.827 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+22:02:22.827 › [GatewaySocket] Setting connection state to CONNECTING
+22:02:22.827 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+22:02:23.161 › [GatewaySocket] [CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 333 ms
+22:02:23.161 › [GatewaySocket] Setting connection state to RESUMING
+22:02:23.161 › [GatewaySocket] [RESUME] resuming session d577689d84abc3cd0d02073f31d89dcf, seq: 13992
+22:02:23.162 › [GatewaySocket] [HELLO] via 
+gateway-prd-arm-us-east1-b-0xdd: 0, heartbeat interval: 41250, took 334 ms
+22:02:23.253 › [GatewaySocket] 
+gateway-prd-arm-us-east1-b-0xdd: 3.101
+|  id_created: 0
+|  session_lookup_time: 2.612
+|  session_lookup_finished: 0.009
+|  sessions-prd-gcp-us-east1-b-65: 0.054
+22:02:23.253 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+22:02:23.303 › [Flux] Dispatching CONNECTION_RESUMED
+22:02:23.305 › [GatewaySocket] [RESUMED] took 478ms, replayed 0 events, new seq: 13995
+22:02:25.579 › [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+22:02:25.579 › [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+22:02:48.709 › [MessageQueue] Queueing message to be sent LogId:6716
+22:02:48.710 › [MessageQueue] Draining message from queue LogId:6716 QueueLength: 0
+22:02:48.710 › [MessageQueue] Draining Message Queue with:  0
+22:02:49.057 › [MessageQueue] Finished draining message from queue LogId:6716 QueueLength: 0
+22:02:50.593 › [MessageQueue] Queueing message to be sent LogId:6306
+22:02:50.594 › [MessageQueue] Draining message from queue LogId:6306 QueueLength: 0
+22:02:50.595 › [MessageQueue] Draining Message Queue with:  0
+22:02:51.118 › [MessageQueue] Finished draining message from queue LogId:6306 QueueLength: 0
+22:03:22.837 › [MessageQueue] Queueing message to be sent LogId:3329
+22:03:22.838 › [MessageQueue] Draining message from queue LogId:3329 QueueLength: 0
+22:03:22.838 › [MessageQueue] Draining Message Queue with:  0
+22:03:23.721 › [MessageQueue] Finished draining message from queue LogId:3329 QueueLength: 0
+22:03:27.355 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+22:03:51.452 › [MessageQueue] Queueing message to be sent LogId:1861
+22:03:51.453 › [MessageQueue] Draining message from queue LogId:1861 QueueLength: 0
+22:03:51.453 › [MessageQueue] Draining Message Queue with:  0
+22:03:51.813 › [MessageQueue] Finished draining message from queue LogId:1861 QueueLength: 0
+22:04:46.739 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+22:04:59.883 › [MessageQueue] Queueing message to be sent LogId:99
+22:04:59.883 › [MessageQueue] Draining message from queue LogId:99 QueueLength: 0
+22:04:59.883 › [MessageQueue] Draining Message Queue with:  0
+22:05:00.328 › [MessageQueue] Finished draining message from queue LogId:99 QueueLength: 0
+22:05:36.044 › [MessageQueue] Queueing message to be sent LogId:1653
+22:05:36.044 › [MessageQueue] Draining message from queue LogId:1653 QueueLength: 0
+22:05:36.044 › [MessageQueue] Draining Message Queue with:  0
+22:05:36.387 › [MessageQueue] Finished draining message from queue LogId:1653 QueueLength: 0
+22:05:46.698 › [MessageQueue] Queueing message to be sent LogId:5964
+22:05:46.698 › [MessageQueue] Draining message from queue LogId:5964 QueueLength: 0
+22:05:46.699 › [MessageQueue] Draining Message Queue with:  0
+22:05:47.259 › [MessageQueue] Finished draining message from queue LogId:5964 QueueLength: 0
+22:05:59.510 › [MessageQueue] Queueing message to be sent LogId:2813
+22:05:59.510 › [MessageQueue] Draining message from queue LogId:2813 QueueLength: 0
+22:05:59.510 › [MessageQueue] Draining Message Queue with:  0
+22:05:59.925 › [MessageQueue] Finished draining message from queue LogId:2813 QueueLength: 0
+22:06:42.741 › [MessageQueue] Queueing message to be sent LogId:1636
+22:06:42.742 › [MessageQueue] Draining message from queue LogId:1636 QueueLength: 0
+22:06:42.742 › [MessageQueue] Draining Message Queue with:  0
+22:06:43.085 › [MessageQueue] Finished draining message from queue LogId:1636 QueueLength: 0
+22:06:47.926 › [MessageQueue] Queueing message to be sent LogId:7635
+22:06:47.926 › [MessageQueue] Draining message from queue LogId:7635 QueueLength: 0
+22:06:47.926 › [MessageQueue] Draining Message Queue with:  0
+22:06:48.301 › [MessageQueue] Finished draining message from queue LogId:7635 QueueLength: 0
+22:06:57.919 › [MessageQueue] Queueing message to be sent LogId:8823
+22:06:57.919 › [MessageQueue] Draining message from queue LogId:8823 QueueLength: 0
+22:06:57.919 › [MessageQueue] Draining Message Queue with:  0
+22:06:58.193 › [MessageQueue] Finished draining message from queue LogId:8823 QueueLength: 0
+22:07:35.642 › [MessageQueue] Queueing message to be sent LogId:8783
+22:07:35.643 › [MessageQueue] Draining message from queue LogId:8783 QueueLength: 0
+22:07:35.644 › [MessageQueue] Draining Message Queue with:  0
+22:07:35.947 › [MessageQueue] Finished draining message from queue LogId:8783 QueueLength: 0
+22:08:18.943 › [MessageQueue] Queueing message to be sent LogId:3227
+22:08:18.943 › [MessageQueue] Draining message from queue LogId:3227 QueueLength: 0
+22:08:18.943 › [MessageQueue] Draining Message Queue with:  0
+22:08:19.628 › [MessageQueue] Finished draining message from queue LogId:3227 QueueLength: 0
+22:08:37.642 › [MessageQueue] Queueing message to be sent LogId:2680
+22:08:37.643 › [MessageQueue] Draining message from queue LogId:2680 QueueLength: 0
+22:08:37.643 › [MessageQueue] Draining Message Queue with:  0
+22:08:38.086 › [MessageQueue] Finished draining message from queue LogId:2680 QueueLength: 0
+22:08:39.199 › [MessageQueue] Queueing message to be sent LogId:8381
+22:08:39.200 › [MessageQueue] Draining message from queue LogId:8381 QueueLength: 0
+22:08:39.200 › [MessageQueue] Draining Message Queue with:  0
+22:08:39.524 › [MessageQueue] Finished draining message from queue LogId:8381 QueueLength: 0
+22:08:39.567 › [MessageQueue] Queueing message to be sent LogId:8325
+22:08:39.567 › [MessageQueue] Draining message from queue LogId:8325 QueueLength: 0
+22:08:39.567 › [MessageQueue] Draining Message Queue with:  0
+22:08:40.302 › [MessageQueue] Finished draining message from queue LogId:8325 QueueLength: 0
+22:08:57.878 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+22:08:57.878 › [MessageQueue] Draining Message Queue with:  1
+22:08:58.127 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+22:08:58.128 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump=undefined
+22:09:12.265 › [MessageQueue] Queueing message to be sent LogId:2004
+22:09:12.265 › [MessageQueue] Draining message from queue LogId:2004 QueueLength: 0
+22:09:12.265 › [MessageQueue] Draining Message Queue with:  0
+22:09:12.854 › [MessageQueue] Finished draining message from queue LogId:2004 QueueLength: 0
+22:09:14.298 › [MessageQueue] Queueing message to be sent LogId:8310
+22:09:14.298 › [MessageQueue] Draining message from queue LogId:8310 QueueLength: 0
+22:09:14.298 › [MessageQueue] Draining Message Queue with:  0
+22:09:14.624 › [MessageQueue] Finished draining message from queue LogId:8310 QueueLength: 0
+22:10:19.499 › [MessageQueue] Queueing message to be sent LogId:4561
+22:10:19.499 › [MessageQueue] Draining message from queue LogId:4561 QueueLength: 0
+22:10:19.500 › [MessageQueue] Draining Message Queue with:  0
+22:10:19.824 › [MessageQueue] Finished draining message from queue LogId:4561 QueueLength: 0
+22:10:38.759 › [MessageQueue] Queueing message to be sent LogId:105
+22:10:38.759 › [MessageQueue] Draining message from queue LogId:105 QueueLength: 0
+22:10:38.759 › [MessageQueue] Draining Message Queue with:  0
+22:10:39.320 › [MessageQueue] Finished draining message from queue LogId:105 QueueLength: 0
+22:11:30.146 › [MessageQueue] Queueing message to be sent LogId:1036
+22:11:30.146 › [MessageQueue] Draining message from queue LogId:1036 QueueLength: 0
+22:11:30.146 › [MessageQueue] Draining Message Queue with:  0
+22:11:30.423 › [MessageQueue] Finished draining message from queue LogId:1036 QueueLength: 0
+22:11:51.632 › [MessageQueue] Queueing message to be sent LogId:2254
+22:11:51.633 › [MessageQueue] Draining message from queue LogId:2254 QueueLength: 0
+22:11:51.633 › [MessageQueue] Draining Message Queue with:  0
+22:11:51.907 › [MessageQueue] Finished draining message from queue LogId:2254 QueueLength: 0
+22:12:09.354 › [MessageQueue] Queueing message to be sent LogId:6413
+22:12:09.355 › [MessageQueue] Draining message from queue LogId:6413 QueueLength: 0
+22:12:09.355 › [MessageQueue] Draining Message Queue with:  0
+22:12:09.657 › [MessageQueue] Finished draining message from queue LogId:6413 QueueLength: 0
+22:12:12.083 › [MessageQueue] Queueing message to be sent LogId:9096
+22:12:12.083 › [MessageQueue] Draining message from queue LogId:9096 QueueLength: 0
+22:12:12.083 › [MessageQueue] Draining Message Queue with:  0
+22:12:12.524 › [MessageQueue] Finished draining message from queue LogId:9096 QueueLength: 0
+22:12:52.883 › [MessageQueue] Queueing message to be sent LogId:6763
+22:12:52.884 › [MessageQueue] Draining message from queue LogId:6763 QueueLength: 0
+22:12:52.884 › [MessageQueue] Draining Message Queue with:  0
+22:12:53.319 › [MessageQueue] Finished draining message from queue LogId:6763 QueueLength: 0
+22:13:16.182 › [MessageQueue] Queueing message to be sent LogId:9983
+22:13:16.182 › [MessageQueue] Draining message from queue LogId:9983 QueueLength: 0
+22:13:16.182 › [MessageQueue] Draining Message Queue with:  0
+22:13:16.403 › [MessageQueue] Finished draining message from queue LogId:9983 QueueLength: 0
+22:13:26.060 › [MessageQueue] Queueing message to be sent LogId:6701
+22:13:26.060 › [MessageQueue] Draining message from queue LogId:6701 QueueLength: 0
+22:13:26.060 › [MessageQueue] Draining Message Queue with:  0
+22:13:26.328 › [MessageQueue] Finished draining message from queue LogId:6701 QueueLength: 0
+22:13:28.206 › [MessageQueue] Queueing message to be sent LogId:5111
+22:13:28.207 › [MessageQueue] Draining message from queue LogId:5111 QueueLength: 0
+22:13:28.207 › [MessageQueue] Draining Message Queue with:  0
+22:13:28.451 › [MessageQueue] Finished draining message from queue LogId:5111 QueueLength: 0
+22:13:55.507 › [MessageQueue] Queueing message to be sent LogId:7328
+22:13:55.508 › [MessageQueue] Draining message from queue LogId:7328 QueueLength: 0
+22:13:55.508 › [MessageQueue] Draining Message Queue with:  0
+22:13:55.877 › [MessageQueue] Finished draining message from queue LogId:7328 QueueLength: 0
+22:14:10.724 › [MessageQueue] Queueing message to be sent LogId:8477
+22:14:10.724 › [MessageQueue] Draining message from queue LogId:8477 QueueLength: 0
+22:14:10.725 › [MessageQueue] Draining Message Queue with:  0
+22:14:11.118 › [MessageQueue] Finished draining message from queue LogId:8477 QueueLength: 0
+22:16:57.614 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+22:28:10.893 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+22:32:43.287 › [Clips] decider: clear() called — currentSessionGameKey=null currentSessionId=undefined pendingSessionGameKey=null candidates=0
+22:32:43.288 › [Clips] ranked clips: [object Object]
+22:32:43.292 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+22:32:43.292 › [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.04 seconds.
+22:32:43.293 › [Clips] decider: clear() called — currentSessionGameKey=null currentSessionId=undefined pendingSessionGameKey=null candidates=0
+22:32:43.293 › [Clips] ranked clips: [object Object]
+22:32:43.303 › [GatewaySocket] Expedited heartbeat requested, but, connection state is WILL_RECONNECT and reconnectImmediately was not requested reason: network detected offline.
+22:32:44.613 › [GatewaySocket] Setting connection state to CONNECTING
+22:32:44.614 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+22:32:44.621 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+22:32:44.621 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.04 seconds.
+00:44:42.198 › [GatewaySocket] Setting connection state to CONNECTING
+00:44:42.198 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+00:44:42.199 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+00:44:42.199 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+00:44:42.199 › [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+00:44:42.199 › [GatewaySocket] Setting connection state to CONNECTING
+00:44:42.199 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+00:44:42.200 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+00:44:42.200 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+00:44:42.200 › [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+00:44:42.201 › [GatewaySocket] Setting connection state to CONNECTING
+00:44:42.201 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+00:44:42.202 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+00:44:42.203 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.24 seconds.
+00:44:43.006 › [GatewaySocket] Connection has reset backoff for reason: network detected online.
+00:44:43.006 › [GatewaySocket] Setting connection state to CONNECTING
+00:44:43.006 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+00:44:43.293 › [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 286 ms
+00:44:43.293 › [ConnectionStore] handleIdentify called [object Object]
+00:44:43.293 › [GatewaySocket] Setting connection state to IDENTIFYING
+00:44:43.293 › [GatewaySocket] [IDENTIFY]
+00:44:43.303 › [GatewaySocket] [HELLO] via 
+gateway-prd-arm-us-east1-c-hxrm: 0, heartbeat interval: 41250, took 297 ms
+00:44:44.920 › [GatewaySocket] [READY] took 1913ms, as 12e264acc1631d4e8a41c56f8fb70183
+00:44:44.921 › [GatewaySocket] 
+gateway-prd-arm-us-east1-c-hxrm: 453.951
+|  id_created: 0.727
+|  session_lookup_time: 0.301
+|  session_lookup_finished: 0.015
+|  sessions-prd-gcp-us-east1-c-92: 431.472
+|  |  start_session: 369.1
+|  |  |  prd-rpc-64fdbb5bb5-7p6jw: 245.181
+|  |  |  |  get_user: 8.556
+|  |  |  |  get_guilds: 82.56
+|  |  |  |  user_settings_proto: 0.116
+|  |  |  |  relationships: 132.851
+|  |  |  |  game_relationships: 0.006
+|  |  |  |  friend_suggestion: 0.05
+|  |  |  |  connections: 0.014
+|  |  |  |  serialized_read_states: 0.005
+|  |  |  |  send_scheduled_deletion_message: 0.005
+|  |  |  |  sanitize_premium_perks: 0.005
+|  |  |  |  read_repair_premium_perks: 0.002
+|  |  |  |  guild_join_requests: 0.003
+|  |  |  |  user_guild_settings: 0.009
+|  |  |  |  serialized_private_channels: 0.004
+|  |  |  |  user_segments: 0.01
+|  |  |  |  blocker_ids: 0.003
+|  |  |  |  affine_user_ids: 0.013
+|  |  |  |  experiments: 4.592
+|  |  |  |  required_action: 0.011
+|  |  |  |  authorized_ip_coro: 0.003
+|  |  |  |  pending_payments: 2.234
+|  |  |  |  apex_experiments: 75.433
+|  |  |  |  sessions_experiments: 0.006
+|  |  |  |  played_application_ids: 0.005
+|  |  |  |  linked_users: 0.004
+|  |  |  |  ad_personalization_toggles_disabled: 0.003
+|  |  |  |  regional_feature_config: 0.003
+|  |  starting_guild_connect: 6.93
+|  |  presence_started: 0.374
+|  |  guilds_started: 3.432
+|  |  lobbies_started: 0.001
+|  |  guilds_connect: 41.372
+|  |  presence_connect: 0.002
+|  |  connect_finished: 41.699
+|  |  build_ready: 3.882
+|  |  clean_ready: 0.002
+|  |  optimize_ready: 5.836
+|  |  split_ready: 0.214
+00:44:44.921 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+00:44:44.921 › [GatewaySocket] Updating resume url to wss://gateway-us-east1-c.discord.gg
+00:44:45.027 › [Flux] Dispatching CONNECTION_OPEN
+00:44:45.027 › [AuthenticationStore] handleConnectionOpen called [object Object]
+00:44:45.030 › [DatabaseManager] removing database (user: 302127110678511616, database: null)
+00:44:45.030 › [DatabaseManager] added database (302127110678511616 → null)
+00:44:45.287 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+00:44:45.289 › [Flux] Slow dispatch on CONNECTION_OPEN: 261.6000000089407ms
+00:44:45.578 › [GatewaySocket] [READY_SUPPLEMENTAL] took 2572ms
+00:44:45.578 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+00:44:45.595 › [MessageActionCreators] Fetched 10 messages for 1350131362354696314 isBefore:false isAfter:false
+00:44:45.596 › [ChannelMessages] loadComplete: resetting state for channelId=1350131362354696314, sending.length=0
+00:44:52.385 › [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+00:44:52.386 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+00:44:52.515 › [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+00:44:52.515 › [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+00:44:55.385 › [ReadStateStore] Deleting ReadState 900208892875796525 0 [object Object]
+00:44:56.387 › [ReadStateStore] Deleting ReadState 1444491963742159020 0 [object Object]
+00:44:56.630 › [RTCLatencyTestManager] RTC region latency test completed, ranked regions are:  us-central,newark,us-east,atlanta,us-south
+00:46:42.885 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+00:57:13.387 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+01:03:25.196 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+01:04:05.567 › [MessageActionCreators] Fetching messages for 1350131362354696314 between undefined and 1519182320354066553. jump=undefined
+01:04:05.927 › [MessageActionCreators] Fetched 20 messages for 1350131362354696314 isBefore:true isAfter:false
+01:04:08.764 › [MessageActionCreators] Fetching messages for 1053361320755470407 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:04:08.833 › [Routing/Utils] transitionTo - Transitioning to /channels/1053361319916601394/1053361320755470407
+01:04:09.066 › [MessageActionCreators] Fetched 10 messages for 1053361320755470407 isBefore:false isAfter:false
+01:04:09.067 › [ChannelMessages] loadComplete: resetting state for channelId=1053361320755470407, sending.length=0
+01:04:11.541 › [MessageActionCreators] Fetching messages for 1053366591313674240 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:04:11.605 › [Routing/Utils] transitionTo - Transitioning to /channels/1053361319916601394/1053366591313674240
+01:04:11.697 › [MessageActionCreators] Fetched 10 messages for 1053366591313674240 isBefore:false isAfter:false
+01:04:11.698 › [ChannelMessages] loadComplete: resetting state for channelId=1053366591313674240, sending.length=0
+01:04:15.472 › [MessageActionCreators] Fetching messages for 966343656913113088 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:04:15.548 › [Routing/Utils] transitionTo - Transitioning to /channels/752962466014822440/966343656913113088
+01:04:15.727 › [MessageActionCreators] Fetched 10 messages for 966343656913113088 isBefore:false isAfter:false
+01:04:15.729 › [ChannelMessages] loadComplete: resetting state for channelId=966343656913113088, sending.length=0
+01:04:19.540 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+01:04:21.978 › [MessageActionCreators] Fetching messages for 1378031855416381580 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:04:22.020 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1378031855416381580
+01:04:22.220 › [MessageActionCreators] Fetched 10 messages for 1378031855416381580 isBefore:false isAfter:false
+01:04:22.221 › [ChannelMessages] loadComplete: resetting state for channelId=1378031855416381580, sending.length=0
+01:04:22.249 › [MessageActionCreators] Fetching messages for 1378031855416381580 between undefined and 1518771914376479010. jump=undefined
+01:04:22.679 › [MessageActionCreators] Fetched 20 messages for 1378031855416381580 isBefore:true isAfter:false
+01:04:25.073 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+01:04:25.073 › [MessageQueue] Draining Message Queue with:  2
+01:04:25.328 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+01:04:26.457 › [RPCServer:PostMessage] Socket Opened: 311
+01:04:26.462 › [RPCServer:PostMessage] Socket Emit: 311 [object Object]
+01:04:26.462 › [RPCServer:PostMessage] Socket Validated: 311
+01:04:26.466 › [RPCServer:PostMessage] Socket Message: 311 [object Object]
+01:04:26.468 › [RPCServer:PostMessage] Socket Emit: 311 [object Object]
+01:04:26.468 › [RPCServer:PostMessage] Socket Message: 311 [object Object]
+01:04:26.469 › [RPCServer:PostMessage] Socket Emit: 311 [object Object]
+01:04:26.469 › [RPCServer:PostMessage] Socket Message: 311 [object Object]
+01:04:27.447 › [RPCServer:PostMessage] Socket Emit: 311 [object Object]
+01:04:27.453 › [RPCServer:PostMessage] Socket Message: 311 [object Object]
+01:04:27.457 › [RPCServer:PostMessage] Socket Emit: 311 [object Object]
+01:04:39.262 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+01:04:39.263 › [MessageQueue] Draining Message Queue with:  2
+01:04:39.537 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+01:04:50.027 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+01:04:50.027 › [MessageQueue] Draining Message Queue with:  2
+01:04:50.358 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+01:04:51.189 › [RPCServer:PostMessage] Socket Opened: 312
+01:04:51.191 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:51.191 › [RPCServer:PostMessage] Socket Validated: 312
+01:04:51.200 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:51.201 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:51.201 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:51.202 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:51.202 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:52.043 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:52.048 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:52.049 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:53.988 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:53.989 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:53.990 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:53.991 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:53.992 › [RpcApplicationLogger] 1211781489931452447 - Firebase: Logged out
+01:04:53.992 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.134 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.136 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.137 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.137 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.138 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.138 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.138 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.139 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.139 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.139 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.140 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.140 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.140 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.141 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.141 › [MessageActionCreators] Fetching messages for 1378031855416381580 between undefined and undefined. jump=undefined
+01:04:54.142 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.142 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.146 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.146 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.313 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.314 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.315 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.316 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.316 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.317 › [RpcApplicationLogger] 1211781489931452447 - Firebase: Logged in
+01:04:54.317 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.466 › [MessageActionCreators] Fetched 30 messages for 1378031855416381580 isBefore:false isAfter:false
+01:04:54.468 › [ChannelMessages] loadComplete: merging with SENDING messages for channelId=1378031855416381580
+01:04:54.525 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.526 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:54.848 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:54.849 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:55.036 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:55.037 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:55.200 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:55.200 › [RpcApplicationLogger] 1211781489931452447 - Firebase: Host: uninitialized
+01:04:55.201 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:55.201 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:55.201 › [RpcApplicationLogger] 1211781489931452447 - Firebase: Host: 5ad11619-cd32-41ca-b715-bf94fc366e9f
+01:04:55.201 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:55.946 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:55.948 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:56.052 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:56.053 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:56.053 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:56.054 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:56.054 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:56.058 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:56.058 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:56.180 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:56.210 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:56.211 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:04:59.430 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:04:59.435 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:23.014 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:23.019 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:23.096 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:23.156 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:26.588 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:26.595 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:48.924 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:48.933 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:55.751 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:55.759 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:55.759 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:55.762 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:55.812 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:55.858 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:05:56.011 › [RPCServer:PostMessage] Socket Message: 312 [object Object]
+01:05:56.013 › [RPCServer:PostMessage] Socket Emit: 312 [object Object]
+01:06:12.096 › [MessageQueue] Queueing message to be sent LogId:9993
+01:06:12.096 › [MessageQueue] Draining message from queue LogId:9993 QueueLength: 0
+01:06:12.097 › [MessageQueue] Draining Message Queue with:  0
+01:06:12.453 › [MessageQueue] Finished draining message from queue LogId:9993 QueueLength: 0
+01:13:07.098 › [MessageActionCreators] Fetching messages for 1434797241700454471 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:13:07.406 › [MessageActionCreators] Fetched 11 messages for 1434797241700454471 isBefore:false isAfter:false
+01:13:07.406 › [ChannelMessages] loadComplete: resetting state for channelId=1434797241700454471, sending.length=0
+01:13:07.465 › [MessageActionCreators] Fetching messages for 1434797241700454471 between undefined and 1519160535529033918. jump=undefined
+01:13:07.616 › [MessageActionCreators] Fetched 22 messages for 1434797241700454471 isBefore:true isAfter:false
+01:13:09.710 › [MessageActionCreators] Fetching messages for 1390405596318142478 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:13:09.932 › [MessageActionCreators] Fetched 11 messages for 1390405596318142478 isBefore:false isAfter:false
+01:13:09.932 › [ChannelMessages] loadComplete: resetting state for channelId=1390405596318142478, sending.length=0
+01:13:10.368 › [MessageActionCreators] Fetching messages for 1390405596318142478 between undefined and 1519114616423190708. jump=undefined
+01:13:10.614 › [MessageActionCreators] Fetched 22 messages for 1390405596318142478 isBefore:true isAfter:false
+01:13:11.390 › [MessageActionCreators] Fetching messages for 1390405596318142478 between undefined and 1518537121449775266. jump=undefined
+01:13:11.561 › [MessageActionCreators] Fetched 22 messages for 1390405596318142478 isBefore:true isAfter:false
+01:13:13.500 › [MessageActionCreators] Fetching messages for 1390405596318142478 between undefined and 1518536079018295346. jump=undefined
+01:13:13.782 › [MessageActionCreators] Fetched 22 messages for 1390405596318142478 isBefore:true isAfter:false
+01:13:16.770 › [MessageActionCreators] Fetching messages for 1390405596318142478 between undefined and 1518475606965096519. jump=undefined
+01:13:16.991 › [MessageActionCreators] Fetched 22 messages for 1390405596318142478 isBefore:true isAfter:false
+01:15:46.590 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1378031855416381580
+01:15:49.597 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350261833709387898
+01:15:50.249 › [ArchivedThreadsStore] archived threads loaded [object Object]
+01:15:53.441 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350261833709387898/threads/1519209295529640007
+01:15:53.443 › [MessageManager] Jumping to start of thread 1519209295529640007
+01:15:53.443 › [MessageActionCreators] Fetching messages for 1519209295529640007 between undefined and undefined. jump={"messageId":"1519209295529640007","flash":false}
+01:15:53.701 › [MessageActionCreators] Fetched 1 messages for 1519209295529640007 isBefore:false isAfter:false
+01:15:53.701 › [ChannelMessages] loadComplete: resetting state for channelId=1519209295529640007, sending.length=0
+01:21:03.782 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350261833709387898
+01:21:05.762 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+01:21:18.281 › [MessageQueue] Queueing message to be sent LogId:2438
+01:21:18.281 › [MessageQueue] Draining message from queue LogId:2438 QueueLength: 0
+01:21:18.281 › [MessageQueue] Draining Message Queue with:  0
+01:21:18.613 › [MessageQueue] Finished draining message from queue LogId:2438 QueueLength: 0
+01:25:04.656 › [MessageActionCreators] Fetching messages for 957674821150449677 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:25:04.696 › [Routing/Utils] transitionTo - Transitioning to /channels/957674820630360066/957674821150449677
+01:25:05.188 › [MessageActionCreators] Fetched 11 messages for 957674821150449677 isBefore:false isAfter:false
+01:25:05.189 › [ChannelMessages] loadComplete: resetting state for channelId=957674821150449677, sending.length=0
+01:25:09.953 › [MessageQueue] Queueing message to be sent LogId:7865
+01:25:09.953 › [MessageQueue] Draining message from queue LogId:7865 QueueLength: 0
+01:25:09.954 › [MessageQueue] Draining Message Queue with:  0
+01:25:10.209 › [MessageQueue] Finished draining message from queue LogId:7865 QueueLength: 0
+01:25:21.203 › [MessageQueue] Queueing message to be sent LogId:9809
+01:25:21.203 › [MessageQueue] Draining message from queue LogId:9809 QueueLength: 0
+01:25:21.204 › [MessageQueue] Draining Message Queue with:  0
+01:25:21.418 › [MessageQueue] Finished draining message from queue LogId:9809 QueueLength: 0
+01:25:33.722 › [MessageQueue] Draining message from queue LogId:undefined QueueLength: 0
+01:25:33.722 › [MessageQueue] Draining Message Queue with:  1
+01:25:34.030 › [MessageQueue] Finished draining message from queue LogId:undefined QueueLength: 0
+01:25:34.032 › [MessageActionCreators] Fetching messages for 957674821150449677 between undefined and undefined. jump=undefined
+01:25:37.797 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+01:25:53.928 › [MessageQueue] Queueing message to be sent LogId:2696
+01:25:53.929 › [MessageQueue] Draining message from queue LogId:2696 QueueLength: 0
+01:25:53.929 › [MessageQueue] Draining Message Queue with:  0
+01:25:54.199 › [MessageQueue] Finished draining message from queue LogId:2696 QueueLength: 0
+01:29:08.233 › [MessageActionCreators] Fetching messages for 1243230472788639795 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+01:29:08.297 › [Routing/Utils] transitionTo - Transitioning to /channels/1243230472318881932/1243230472788639795
+01:29:08.511 › [MessageActionCreators] Fetched 11 messages for 1243230472788639795 isBefore:false isAfter:false
+01:29:08.512 › [ChannelMessages] loadComplete: resetting state for channelId=1243230472788639795, sending.length=0
+01:29:08.555 › [MessageActionCreators] Fetching messages for 1243230472788639795 between undefined and 1519077883308671116. jump=undefined
+01:29:10.494 › [MessageActionCreators] Fetched 22 messages for 1243230472788639795 isBefore:true isAfter:false
+01:29:17.657 › [MessageQueue] Queueing message to be sent LogId:4511
+01:29:17.658 › [MessageQueue] Draining message from queue LogId:4511 QueueLength: 0
+01:29:17.658 › [MessageQueue] Draining Message Queue with:  0
+01:29:17.981 › [MessageQueue] Finished draining message from queue LogId:4511 QueueLength: 0
+01:29:45.944 › [MessageQueue] Queueing message to be sent LogId:7027
+01:29:45.945 › [MessageQueue] Draining message from queue LogId:7027 QueueLength: 0
+01:29:45.945 › [MessageQueue] Draining Message Queue with:  0
+01:29:46.370 › [MessageQueue] Finished draining message from queue LogId:7027 QueueLength: 0
+01:32:29.744 › [MessageQueue] Queueing message to be sent LogId:920
+01:32:29.744 › [MessageQueue] Draining message from queue LogId:920 QueueLength: 0
+01:32:29.745 › [MessageQueue] Draining Message Queue with:  0
+01:32:29.962 › [MessageQueue] Finished draining message from queue LogId:920 QueueLength: 0
+01:32:58.210 › [MessageQueue] Queueing message to be sent LogId:7603
+01:32:58.211 › [MessageQueue] Draining message from queue LogId:7603 QueueLength: 0
+01:32:58.212 › [MessageQueue] Draining Message Queue with:  0
+01:32:58.430 › [MessageQueue] Finished draining message from queue LogId:7603 QueueLength: 0
+01:36:08.194 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+01:36:10.800 › [GatewaySocket] Performing an expedited heartbeat reason: network detected online.
+01:36:13.850 › [GatewaySocket] Expedited heartbeat succeeded
+01:36:21.402 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+01:36:22.102 › [GatewaySocket] Performing an expedited heartbeat reason: network detected online.
+01:36:22.406 › [GatewaySocket] Expedited heartbeat succeeded
+01:36:29.186 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+01:36:29.870 › [GatewaySocket] Performing an expedited heartbeat reason: network detected online.
+01:36:30.035 › [GatewaySocket] Expedited heartbeat succeeded
+01:36:39.630 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+01:36:40.175 › [GatewaySocket] Performing an expedited heartbeat reason: network detected online.
+01:36:40.349 › [GatewaySocket] Expedited heartbeat succeeded
+01:36:46.083 › [GatewaySocket] Performing an expedited heartbeat reason: network detected offline.
+01:36:46.606 › [GatewaySocket] Performing an expedited heartbeat reason: network detected online.
+01:36:46.787 › [GatewaySocket] Expedited heartbeat succeeded
+01:38:00.500 › [libdiscore] [NETWORK] Sending GET request to https://cdn.discordapp.com/bad-domains/current_revision.txt
+01:38:00.587 › [libdiscore] [NETWORK] Completed GET request to https://cdn.discordapp.com/bad-domains/current_revision.txt with status: 200
+01:38:00.591 › [libdiscore] [BlockedDomainsStore] Fetching delta between revisions 2976 -> 2977
+01:38:00.591 › [libdiscore] [NETWORK] Sending GET request to https://discord.com/bad-hash-delta
+01:38:00.632 › [libdiscore] [NETWORK] Completed GET request to https://discord.com/bad-hash-delta with status: 200
+01:38:00.635 › [libdiscore] [BlockedDomainsStore] Adding 1 hashes, removing 0 hashes
+01:38:00.645 › [libdiscore] [Cache] Set cache for key: blocked_domains_state
+01:38:00.646 › [libdiscore] [BlockedDomainsStore] Successfully fetched blocked domains
+01:43:29.401 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+01:57:47.986 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+01:57:51.570 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+01:58:10.873 › [MessageQueue] Queueing message to be sent LogId:6628
+01:58:10.873 › [MessageQueue] Draining message from queue LogId:6628 QueueLength: 0
+01:58:10.873 › [MessageQueue] Draining Message Queue with:  0
+01:58:11.629 › [MessageQueue] Finished draining message from queue LogId:6628 QueueLength: 0
+02:07:09.438 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = false
+02:12:06.139 › [WindowVisibilityVideoManager] Incoming video enabled changed, incomingVideoEnabled = true
+02:12:20.372 › [MessageQueue] Queueing message to be sent LogId:5354
+02:12:20.372 › [MessageQueue] Draining message from queue LogId:5354 QueueLength: 0
+02:12:20.373 › [MessageQueue] Draining Message Queue with:  0
+02:12:20.951 › [MessageQueue] Finished draining message from queue LogId:5354 QueueLength: 0
+02:14:56.528 › [MessageActionCreators] Fetching messages for 1437559158340849686 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:14:56.610 › [Routing/Utils] transitionTo - Transitioning to /channels/1437541942249525290/1437559158340849686
+02:14:56.759 › [MessageActionCreators] Fetched 1 messages for 1437559158340849686 isBefore:false isAfter:false
+02:14:56.760 › [ChannelMessages] loadComplete: resetting state for channelId=1437559158340849686, sending.length=0
+02:15:02.348 › [MessageActionCreators] Fetching messages for 1202834308847636480 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:15:02.434 › [Routing/Utils] transitionTo - Transitioning to /channels/1014285857299112047/1202834308847636480
+02:15:02.611 › [MessageActionCreators] Fetched 11 messages for 1202834308847636480 isBefore:false isAfter:false
+02:15:02.611 › [ChannelMessages] loadComplete: resetting state for channelId=1202834308847636480, sending.length=0
+02:15:04.877 › [MessageActionCreators] Fetching messages for 1202833510340231188 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:15:04.976 › [Routing/Utils] transitionTo - Transitioning to /channels/1014285857299112047/1202833510340231188
+02:15:05.069 › [MessageActionCreators] Fetched 11 messages for 1202833510340231188 isBefore:false isAfter:false
+02:15:05.070 › [ChannelMessages] loadComplete: resetting state for channelId=1202833510340231188, sending.length=0
+02:15:17.896 › [MessageActionCreators] Fetching messages for 1202833510340231188 between undefined and 1515321489732145243. jump=undefined
+02:15:18.135 › [MessageActionCreators] Fetched 22 messages for 1202833510340231188 isBefore:true isAfter:false
+02:15:31.972 › [MessageActionCreators] Fetching messages for 1202833510340231188 between undefined and 1508288423423901746. jump=undefined
+02:15:32.233 › [MessageActionCreators] Fetched 22 messages for 1202833510340231188 isBefore:true isAfter:false
+02:15:35.605 › [MessageActionCreators] Fetching messages for 1202833510340231188 between undefined and 1502813927195803739. jump=undefined
+02:15:35.943 › [MessageActionCreators] Fetched 22 messages for 1202833510340231188 isBefore:true isAfter:false
+02:23:08.847 › [MessageActionCreators] Fetching messages for 985713122071437393 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:23:08.946 › [Routing/Utils] transitionTo - Transitioning to /channels/985689155428290622/985713122071437393
+02:23:09.223 › [MessageActionCreators] Fetched 11 messages for 985713122071437393 isBefore:false isAfter:false
+02:23:09.224 › [ChannelMessages] loadComplete: resetting state for channelId=985713122071437393, sending.length=0
+02:23:09.284 › [MessageActionCreators] Fetching messages for 985713122071437393 between undefined and 1510482715076595743. jump=undefined
+02:23:09.543 › [MessageActionCreators] Fetched 22 messages for 985713122071437393 isBefore:true isAfter:false
+02:23:28.022 › [MessageActionCreators] Fetching messages for 1377078200273735800 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:23:28.091 › [Routing/Utils] transitionTo - Transitioning to /channels/1152098875616796694/1377078200273735800
+02:23:28.308 › [MessageActionCreators] Fetched 1 messages for 1377078200273735800 isBefore:false isAfter:false
+02:23:28.309 › [ChannelMessages] loadComplete: resetting state for channelId=1377078200273735800, sending.length=0
+02:24:08.815 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350131362354696314
+02:24:10.889 › [MessageActionCreators] Fetching messages for 1350143948105973792 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:24:10.952 › [Routing/Utils] transitionTo - Transitioning to /channels/1350131361838665830/1350143948105973792
+02:24:11.155 › [MessageActionCreators] Fetched 11 messages for 1350143948105973792 isBefore:false isAfter:false
+02:24:11.156 › [ChannelMessages] loadComplete: resetting state for channelId=1350143948105973792, sending.length=0
+02:24:11.200 › [MessageActionCreators] Fetching messages for 1350143948105973792 between undefined and 1518879637592346634. jump=undefined
+02:24:11.565 › [MessageActionCreators] Fetched 22 messages for 1350143948105973792 isBefore:true isAfter:false
+02:24:14.561 › [MessageQueue] Queueing message to be sent LogId:5640
+02:24:14.561 › [MessageQueue] Draining message from queue LogId:5640 QueueLength: 0
+02:24:14.561 › [MessageQueue] Draining Message Queue with:  0
+02:24:15.560 › [MessageQueue] Finished draining message from queue LogId:5640 QueueLength: 0
+02:24:21.265 › [MessageQueue] Queueing message to be sent LogId:8275
+02:24:21.265 › [MessageQueue] Draining message from queue LogId:8275 QueueLength: 0
+02:24:21.266 › [MessageQueue] Draining Message Queue with:  0
+02:24:21.823 › [MessageQueue] Finished draining message from queue LogId:8275 QueueLength: 0
+02:32:45.139 › [MessageActionCreators] Fetching messages for 946907671112613919 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:32:45.222 › [Routing/Utils] transitionTo - Transitioning to /channels/894865038416965642/946907671112613919
+02:32:45.457 › [MessageActionCreators] Fetched 11 messages for 946907671112613919 isBefore:false isAfter:false
+02:32:45.458 › [ChannelMessages] loadComplete: resetting state for channelId=946907671112613919, sending.length=0
+02:32:47.610 › [MessageManager] Jumping to most recent message in thread 1460827538371772549 - 1519157306581844028
+02:32:47.610 › [MessageActionCreators] Fetching messages for 1460827538371772549 between undefined and undefined. jump={"messageId":"1519157306581844028","flash":false,"offset":1}
+02:32:47.688 › [Routing/Utils] transitionTo - Transitioning to /channels/894865038416965642/1460827538371772549
+02:32:47.805 › [MessageActionCreators] Fetched 7 messages for 1460827538371772549 isBefore:false isAfter:false
+02:32:47.805 › [ChannelMessages] loadComplete: resetting state for channelId=1460827538371772549, sending.length=0
+02:32:47.839 › [MessageActionCreators] Fetching messages for 1460827538371772549 between undefined and 1519070028828250304. jump=undefined
+02:32:48.129 › [MessageActionCreators] Fetched 22 messages for 1460827538371772549 isBefore:true isAfter:false
+02:32:49.067 › [MessageManager] Jumping to most recent message in thread 1265524665519181985 - 1518984618148106380
+02:32:49.068 › [MessageActionCreators] Fetching messages for 1265524665519181985 between undefined and undefined. jump={"messageId":"1518984618148106380","flash":false,"offset":1}
+02:32:49.124 › [Routing/Utils] transitionTo - Transitioning to /channels/894865038416965642/1265524665519181985
+02:32:49.234 › [MessageActionCreators] Fetched 7 messages for 1265524665519181985 isBefore:false isAfter:false
+02:32:49.234 › [ChannelMessages] loadComplete: resetting state for channelId=1265524665519181985, sending.length=0
+02:32:51.003 › [MessageActionCreators] Fetching messages for 1399838151031132361 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+02:32:51.052 › [Routing/Utils] transitionTo - Transitioning to /channels/894865038416965642/1399838151031132361
+02:32:51.179 › [MessageActionCreators] Fetched 11 messages for 1399838151031132361 isBefore:false isAfter:false
+02:32:51.180 › [ChannelMessages] loadComplete: resetting state for channelId=1399838151031132361, sending.length=0
+02:32:51.259 › [MessageActionCreators] Fetching messages for 1399838151031132361 between undefined and 1518510308505813032. jump=undefined
+02:32:51.490 › [MessageActionCreators] Fetched 22 messages for 1399838151031132361 isBefore:true isAfter:false
+02:33:18.286 › [Clips] decider: clear() called — currentSessionGameKey=null currentSessionId=undefined pendingSessionGameKey=null candidates=0
+02:33:18.287 › [Clips] ranked clips: [object Object]
+02:33:18.292 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+02:33:18.292 › [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.39 seconds.
+02:33:18.294 › [Clips] decider: clear() called — currentSessionGameKey=null currentSessionId=undefined pendingSessionGameKey=null candidates=0
+02:33:18.295 › [Clips] ranked clips: [object Object]
+02:33:18.304 › [GatewaySocket] Expedited heartbeat requested, but, connection state is WILL_RECONNECT and reconnectImmediately was not requested reason: network detected offline.
+08:12:56.192 › [GatewaySocket] Setting connection state to CONNECTING
+08:12:56.193 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+08:12:56.200 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+08:12:56.200 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+08:12:56.200 › [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+08:12:56.201 › [GatewaySocket] Setting connection state to CONNECTING
+08:12:56.201 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+08:12:56.202 › [GatewaySocket] Connection has reset backoff for reason: power monitor resumed
+08:12:56.202 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+08:12:56.202 › [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+08:12:56.202 › [GatewaySocket] Setting connection state to CONNECTING
+08:12:56.202 › [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+08:12:56.205 › [GatewaySocket] Setting connection state to WILL_RECONNECT
+08:12:56.205 › [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.37 seconds.
+08:12:57.013 › [GatewaySocket] Connection has reset backoff for reason: network detected online.
+08:12:57.014 › [GatewaySocket] Setting connection state to CONNECTING
+08:12:57.014 › [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+08:12:57.306 › [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 292 ms
+08:12:57.306 › [ConnectionStore] handleIdentify called [object Object]
+08:12:57.306 › [GatewaySocket] Setting connection state to IDENTIFYING
+08:12:57.306 › [GatewaySocket] [IDENTIFY]
+08:12:57.313 › [GatewaySocket] [HELLO] via 
+gateway-prd-arm-us-east1-c-fl66: 0, heartbeat interval: 41250, took 300 ms
+08:12:58.909 › [GatewaySocket] [READY] took 1895ms, as 581edab72d5d58646f9ba1cd6e8394a5
+08:12:58.909 › [GatewaySocket] 
+gateway-prd-arm-us-east1-c-fl66: 467.28
+|  id_created: 0.934
+|  session_lookup_time: 0.217
+|  session_lookup_finished: 0.016
+|  sessions-prd-gcp-us-east1-c-17: 442.332
+|  |  start_session: 368.863
+|  |  |  prd-rpc-64fdbb5bb5-kk2tr: 263.698
+|  |  |  |  get_user: 8.089
+|  |  |  |  get_guilds: 82.715
+|  |  |  |  user_settings_proto: 0.096
+|  |  |  |  relationships: 149.097
+|  |  |  |  game_relationships: 0.007
+|  |  |  |  friend_suggestion: 0.047
+|  |  |  |  connections: 0.016
+|  |  |  |  serialized_read_states: 0.006
+|  |  |  |  send_scheduled_deletion_message: 0.005
+|  |  |  |  sanitize_premium_perks: 0.004
+|  |  |  |  read_repair_premium_perks: 0.003
+|  |  |  |  guild_join_requests: 0.003
+|  |  |  |  user_guild_settings: 0.003
+|  |  |  |  serialized_private_channels: 0.003
+|  |  |  |  user_segments: 0.009
+|  |  |  |  blocker_ids: 0.004
+|  |  |  |  affine_user_ids: 0.023
+|  |  |  |  experiments: 4.81
+|  |  |  |  required_action: 0.012
+|  |  |  |  authorized_ip_coro: 0.004
+|  |  |  |  pending_payments: 2.511
+|  |  |  |  apex_experiments: 68.172
+|  |  |  |  sessions_experiments: 0.008
+|  |  |  |  played_application_ids: 0.005
+|  |  |  |  linked_users: 0.011
+|  |  |  |  ad_personalization_toggles_disabled: 0.005
+|  |  |  |  regional_feature_config: 0.004
+|  |  starting_guild_connect: 17.855
+|  |  presence_started: 0.394
+|  |  guilds_started: 3.541
+|  |  lobbies_started: 0.001
+|  |  guilds_connect: 40.938
+|  |  presence_connect: 0.001
+|  |  connect_finished: 41.241
+|  |  build_ready: 4.363
+|  |  clean_ready: 0.001
+|  |  optimize_ready: 5.883
+|  |  split_ready: 0.188
+08:12:58.909 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+08:12:58.909 › [GatewaySocket] Updating resume url to wss://gateway-us-east1-c.discord.gg
+08:12:58.996 › [Flux] Dispatching CONNECTION_OPEN
+08:12:58.997 › [AuthenticationStore] handleConnectionOpen called [object Object]
+08:12:58.998 › [DatabaseManager] removing database (user: 302127110678511616, database: null)
+08:12:58.998 › [DatabaseManager] added database (302127110678511616 → null)
+08:12:59.213 › [MessageActionCreators] Fetching messages for 1399838151031132361 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+08:12:59.214 › [Flux] Slow dispatch on CONNECTION_OPEN: 218.1000000089407ms
+08:12:59.574 › [MessageActionCreators] Fetched 11 messages for 1399838151031132361 isBefore:false isAfter:false
+08:12:59.575 › [ChannelMessages] loadComplete: resetting state for channelId=1399838151031132361, sending.length=0
+08:12:59.632 › [GatewaySocket] [READY_SUPPLEMENTAL] took 2618ms
+08:12:59.632 › [GatewaySocket] Setting connection state to SESSION_ESTABLISHED
+08:13:05.883 › [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+08:13:06.074 › [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+08:13:06.074 › [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+08:13:09.048 › [ReadStateStore] Deleting ReadState 908343720578015242 0 [object Object]
+08:13:09.149 › [ReadStateStore] Deleting ReadState 1440005243764080721 0 [object Object]
+08:13:24.491 › [RTCLatencyTestManager] RTC region latency test completed, ranked regions are:  us-central,newark,us-east,atlanta,us-south
+blackbox: 6/24/2026, 8:14:32 AM EDT 11 before-quit
+blackbox: 6/24/2026, 8:14:32 AM EDT 12 window.close win2
+blackbox: 6/24/2026, 8:14:32 AM EDT 13 webContents.destroyed web2
