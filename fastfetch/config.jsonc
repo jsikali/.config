@@ -1,18 +1,18 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
-    "type": "auto",
+    /*"type": "auto",
     "source": "",
-    "color": { /*hahaha nao binario*/
-      "1": "light_yellow",
-      "2": "light_magenta"
+    "color": {
+      "1": "white",
+      "2": "magenta"
     },
     "width": null,
     "height": null,
     "padding": {
       "top": 0,
       "left": 0,
-      "right": 4
+      "right": 2
     },
     "printRemaining": true,
     "preserveAspectRatio": false,
@@ -21,7 +21,8 @@
     "chafa": {
       "fgOnly": false,
       "symbols": "block+border+space-wide-inverted"
-    }
+    }*/
+    "source": "~/.config/fastfetch/ascii.txt"
   },
   "display": {
     "stat": false,
@@ -31,10 +32,10 @@
     "hideCursor": false,
     "separator": ": ",
     "color": {
-      "keys": "light_magenta",
-      "title": "light_cyan",
+      "keys": "magenta",
+      "title": "magenta",
       "output": "",
-      "separator": "light_cyan"
+      "separator": "white"
     },
     "brightColor": true,
     "duration": {
