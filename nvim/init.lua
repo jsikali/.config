@@ -65,7 +65,7 @@ require("lazy").setup({
          local palette = require("inabakumidnight.palette")
 
          local imagepath = vim.fn.stdpath("config") .. "/lagtrain.jpg"
-         local handle = io.popen("ascii-image-converter " .. imagepath .. " -cfb --threshold 180")
+         local handle = io.popen("ascii-image-converter " .. imagepath .. " -cb -W 50 --threshold 180")
          local header = handle:read("*a")
          handle:close()
 
