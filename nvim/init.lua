@@ -54,6 +54,48 @@ vim.opt.rtp:prepend(lazypath)
 
 -- plugins
 require("lazy").setup({
+   -- nicer autocomplete
+   {
+      "hrsh7th/nvim-cmp",
+      dependencies = {
+         "hrsh7th/cmp-nvim-lsp",
+         "hrsh7th/cmp-buffer",
+         "hrsh7th/cmp-path",
+      },
+
+      config = function()
+         local cmp = require("cmp")
+
+         cmp.setup({
+            preselect = cmp.PreselectMode.keybindsNone,
+            completion = {
+               completeopt = "menu,menuone,noinsert",
+            },
+
+            mapping = cmp.mapping.preset.insert({
+               ["<C-n>"] = cmp.mapping.select_next_item(),
+               ["<C-p>"] = cmp.mapping.select_prev_item(),
+
+               ["<CR>"] = cmp.mapping.confirm({
+                  select = true,
+               }),
+
+               ["<C-Space>"] = cmp.mapping.complete(),
+            }),
+
+            window = {
+               completion = cmp.config.window.bordered(),
+               documentation = cmp.config.window.bordered(),
+            },
+
+            sources = {
+               { name = "nvim_lsp" },
+               { name = "path" },
+               { name = "buffer" },
+            },
+         })
+      end,
+   },
 
    -- custom start screen
    {
@@ -194,8 +236,7 @@ require("lazy").setup({
       config = function()
          require("mason").setup()
 
-         require("mason-lspconfig").setup({
-         })
+         require("mason-lspconfig").setup({}) -- do i need this lol
 
          vim.keymap.set("n", "<leader>f", function()
             require("conform").format({
@@ -207,25 +248,39 @@ require("lazy").setup({
 
          vim.lsp.enable(require("mason-lspconfig").get_installed_servers())
          -- lsp shortcuts
-         vim.keymap.set("n", "K",
-            vim.lsp.buf.hover,
-            { desc = "Hover Documentation" })
+         vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Hover Documentation" })
+         vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to Definition" })
+         vim.keymap.set("n", "gr", vim.lsp.buf.references, { desc = "Find References" })
+         vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Rename Symbol" })
+         vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Code Actions" })
 
-         vim.keymap.set("n", "gd",
-            vim.lsp.buf.definition,
-            { desc = "Go to Definition" })
+         -- more lsp stuff uhh guh
+         vim.api.nvim_create_autocmd("LspAttach", {
+            callback = function(args)
+               local client = vim.lsp.get_client_by_id(args.data.client_id)
 
-         vim.keymap.set("n", "gr",
-            vim.lsp.buf.references,
-            { desc = "Find References" })
+               if client and client:supports_method("textDocument/completion") then
+                  vim.lsp.completion.enable(true, client.id, args.buf, {
+                     autotrigger = true,
+                  })
+               end
+            end,
+         })
 
-         vim.keymap.set("n", "<leader>rn",
-            vim.lsp.buf.rename,
-            { desc = "Rename Symbol" })
+         local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-         vim.keymap.set("n", "<leader>ca",
-            vim.lsp.buf.code_action,
-            { desc = "Code Actions" })
+         local servers = {
+            clangd = {},
+            lua_ls = {},
+            pyright = {},
+            rust_analyzer = {},
+         }
+
+         for server, config in pairs(servers) do
+            config.capabilities = capabilities
+            vim.lsp.config(server, config)
+            vim.lsp.enable(server)
+         end
       end,
    },
 
